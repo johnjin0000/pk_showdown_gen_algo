@@ -1,0 +1,3644 @@
+Pokemon
+Landorus-Therian                      
+
+Raw count: 58975                      
+Avg. weight: 0.0689093861845          
+Viability Ceiling: 93                 
+ 
+Abilities                             
+Intimidate 100.000%                   
+ 
+Items                                 
+Leftovers 41.602%                     
+Choice Scarf 30.471%                  
+Rocky Helmet 21.338%                  
+Focus Sash  3.124%                    
+Other  3.464%                         
+ 
+Spreads                               
+Jolly:252/0/0/0/8/248 28.668%         
+Impish:252/0/164/0/0/92 17.559%       
+Careful:248/0/0/0/168/92  5.884%      
+Careful:252/0/4/0/252/0  5.695%       
+Jolly:0/252/0/0/4/252  3.740%         
+Careful:252/0/0/0/240/16  3.093%      
+Other 35.360%                         
+ 
+Moves                                 
+Earthquake 98.935%                    
+U-turn 90.330%                        
+Stealth Rock 51.543%                  
+Defog 47.319%                         
+Toxic 46.554%                         
+Stone Edge 20.338%                    
+Explosion 19.764%                     
+Knock Off 13.953%                     
+Other 11.264%                         
+ 
+Teammates                             
+Ferrothorn 42.893%                    
+Dragonite 34.026%                     
+Victini 30.051%                       
+Alakazam 28.289%                      
+Suicune 28.249%                       
+Ninetales-Alola 17.970%               
+Dragapult 17.777%                     
+Latias 16.166%                        
+Arctozolt 14.748%                     
+Scizor 14.744%                        
+Azumarill 14.190%                     
+ 
+Checks and Counters                   
+Ninetales-Alola 57.379 (86.87±7.37)    
+ 	 (26.3% KOed / 60.5% switched out) 
+
+Pokemon
+Ferrothorn                            
+ 
+Raw count: 50099                      
+Avg. weight: 0.0515140724293          
+Viability Ceiling: 93                 
+ 
+Abilities                             
+Iron Barbs 99.622%                    
+Anticipation  0.378%                  
+ 
+Items                                 
+Leftovers 76.196%                     
+Shed Shell 12.127%                    
+Rocky Helmet 10.932%                  
+Other  0.745%                         
+ 
+Spreads                               
+Impish:252/0/96/0/160/0 43.773%       
+Sassy:252/0/8/0/248/0 11.354%         
+Impish:248/0/228/0/0/32  8.811%       
+Impish:252/0/252/0/4/0  4.044%        
+Relaxed:252/0/252/0/4/0  3.174%       
+Impish:248/0/120/0/136/4  3.006%      
+Other 25.838%                         
+ 
+Moves                                 
+Leech Seed 99.230%                    
+Knock Off 77.761%                     
+Spikes 72.947%                        
+Stealth Rock 70.228%                  
+Gyro Ball 26.084%                     
+Body Press 26.015%                    
+Power Whip 19.350%                    
+Other  8.385%                         
+ 
+Teammates                             
+Landorus-Therian 65.282%              
+Victini 44.866%                       
+Dragonite 44.836%                     
+Suicune 43.628%                       
+Alakazam 43.016%                      
+Slowbro 23.005%                       
+Tornadus-Therian 18.138%              
+Garchomp 17.862%                      
+Tapu Koko 12.369%                     
+Crawdaunt 10.595%                     
+Dragapult 10.305%                     
+ 
+Checks and Counters                   
+Heatran 66.743 (89.50±5.69)            
+ 	 (16.0% KOed / 73.5% switched out) 
+
+Pokemon
+Dragonite                             
+ 
+Raw count: 21327                      
+Avg. weight: 0.0732564645241          
+Viability Ceiling: 90                 
+ 
+Abilities                             
+Multiscale 99.337%                    
+Inner Focus  0.663%                   
+ 
+Items                                 
+Heavy-Duty Boots 92.961%              
+Normal Gem  5.542%                    
+Other  1.496%                         
+ 
+Spreads                               
+Jolly:252/0/4/0/0/252 74.738%         
+Adamant:0/252/0/0/4/252  8.237%       
+Careful:252/0/0/0/40/216  5.798%      
+Jolly:0/252/0/0/4/252  3.365%         
+Relaxed:252/0/252/0/4/0  2.069%       
+Careful:248/8/0/0/252/0  1.407%       
+Other  4.386%                         
+ 
+Moves                                 
+Earthquake 98.712%                    
+Dragon Dance 89.111%                  
+Roost 88.611%                         
+Ice Punch 84.875%                     
+Defog  7.924%                         
+Dual Wingbeat  7.715%                 
+Extreme Speed  7.121%                 
+Other 15.931%                         
+ 
+Teammates                             
+Landorus-Therian 88.705%              
+Ferrothorn 76.800%                    
+Alakazam 74.648%                      
+Victini 74.311%                       
+Suicune 73.356%                       
+Weavile  9.510%                       
+Volcarona  8.000%                     
+Urshifu-Rapid-Strike  6.931%          
+Dragapult  6.894%                     
+Aegislash  5.985%                     
+Tangrowth  5.604%                     
+ 
+Checks and Counters                   
+
+Pokemon
+Garchomp                              
+ 
+Raw count: 40018                      
+Avg. weight: 0.0355036980838          
+Viability Ceiling: 92                 
+ 
+Abilities                             
+Rough Skin 100.000%                   
+ 
+Items                                 
+Leftovers 65.614%                     
+Life Orb 12.683%                      
+Rocky Helmet  8.214%                  
+Roseli Berry  6.226%                  
+Lum Berry  4.139%                     
+Other  3.124%                         
+ 
+Spreads                               
+Jolly:0/252/0/0/4/252 37.961%         
+Jolly:0/252/4/0/0/252 27.897%         
+Jolly:4/252/0/0/0/252  5.925%         
+Careful:240/0/0/0/252/16  3.083%      
+Careful:248/0/0/0/252/8  2.700%       
+Careful:252/0/0/0/252/4  2.687%       
+Other 19.747%                         
+ 
+Moves                                 
+Earthquake 97.383%                    
+Swords Dance 75.889%                  
+Scale Shot 69.453%                    
+Stealth Rock 39.655%                  
+Fire Fang 30.415%                     
+Stone Edge 29.426%                    
+Toxic 20.920%                         
+Protect 10.906%                       
+Aqua Tail  8.961%                     
+Other 16.991%                         
+ 
+Teammates                             
+Ferrothorn 34.232%                    
+Weavile 32.157%                       
+Slowbro 26.762%                       
+Dragapult 20.278%                     
+Hatterene 19.315%                     
+Marowak-Alola 19.183%                 
+Drampa 19.146%                        
+Heatran 18.534%                       
+Clefable 16.835%                      
+Tornadus-Therian 15.447%              
+Mew 13.966%                           
+ 
+Checks and Counters                   
+
+Pokemon
+Victini                               
+ 
+Raw count: 10102                      
+Avg. weight: 0.119572707043           
+Viability Ceiling: 88                 
+ 
+Abilities                             
+Victory Star 100.000%                 
+ 
+Items                                 
+Choice Band 88.905%                   
+Heavy-Duty Boots  8.389%              
+Other  2.705%                         
+ 
+Spreads                               
+Jolly:0/252/0/0/0/252 87.994%         
+Jolly:0/252/0/0/4/252  3.804%         
+Jolly:0/252/0/4/0/252  1.617%         
+Naive:0/252/0/4/0/252  1.459%         
+Jolly:0/252/4/0/0/252  1.030%         
+Other  4.096%                         
+ 
+Moves                                 
+V-create 98.800%                      
+Bolt Strike 98.494%                   
+U-turn 97.492%                        
+Zen Headbutt 88.763%                  
+Other 16.451%                         
+ 
+Teammates                             
+Landorus-Therian 92.229%              
+Ferrothorn 90.471%                    
+Dragonite 87.480%                     
+Alakazam 86.365%                      
+Suicune 86.327%                       
+Tapu Koko  3.647%                     
+Tapu Lele  3.172%                     
+Slowbro  3.139%                       
+Kartana  2.859%                       
+Tornadus-Therian  2.560%              
+Toxapex  2.517%                       
+ 
+Checks and Counters                   
+
+Pokemon
+Dragapult                             
+ 
+Raw count: 53191                      
+Avg. weight: 0.0247661896577          
+Viability Ceiling: 92                 
+ 
+Abilities                             
+Infiltrator 79.610%                   
+Clear Body 20.109%                    
+Cursed Body  0.281%                   
+ 
+Items                                 
+Choice Specs 73.815%                  
+Choice Band  9.355%                   
+Dragon Fang  4.469%                   
+Life Orb  4.267%                      
+Weakness Policy  2.012%               
+Leftovers  1.560%                     
+Other  4.522%                         
+ 
+Spreads                               
+Timid:0/0/0/252/4/252 44.228%         
+Modest:0/0/0/252/4/252 22.958%        
+Jolly:0/252/0/0/4/252  6.571%         
+Timid:0/0/4/252/0/252  5.349%         
+Adamant:0/252/0/0/4/252  4.707%       
+Adamant:124/252/0/0/0/132  2.828%     
+Other 13.358%                         
+ 
+Moves                                 
+U-turn 79.913%                        
+Shadow Ball 75.485%                   
+Draco Meteor 72.272%                  
+Flamethrower 58.479%                  
+Dragon Darts 23.790%                  
+Phantom Force 16.318%                 
+Hex 14.622%                           
+Sucker Punch 14.407%                  
+Dragon Dance 13.087%                  
+Steel Wing  6.532%                    
+Thunderbolt  5.479%                   
+Other 19.617%                         
+ 
+Teammates                             
+Landorus-Therian 56.198%              
+Heatran 23.518%                       
+Garchomp 21.978%                      
+Ferrothorn 21.405%                    
+Clefable 20.875%                      
+Corviknight 20.084%                   
+Urshifu-Rapid-Strike 19.079%          
+Kartana 17.123%                       
+Weavile 16.229%                       
+Blacephalon 15.905%                   
+Ninetales-Alola 15.539%               
+ 
+Checks and Counters                   
+
+Pokemon
+Suicune                               
+ 
+Raw count: 2193                       
+Avg. weight: 0.457340711391           
+Viability Ceiling: 88                 
+ 
+Abilities                             
+Pressure 99.998%                      
+Inner Focus  0.002%                   
+ 
+Items                                 
+Rocky Helmet 96.576%                  
+Other  3.424%                         
+ 
+Spreads                               
+Bold:252/0/64/0/0/192 96.576%         
+Other  3.424%                         
+ 
+Moves                                 
+Calm Mind 99.998%                     
+Scald 99.996%                         
+Rest 98.720%                          
+Ice Beam 96.989%                      
+Other  4.298%                         
+ 
+Teammates                             
+Ferrothorn 96.567%                    
+Landorus-Therian 95.165%              
+Dragonite 94.789%                     
+Victini 94.758%                       
+Alakazam 94.758%                      
+Alakazam 94.758%                       
+ 
+Checks and Counters                   
+
+Pokemon
+Alakazam                              
+ 
+Raw count: 5326                       
+Avg. weight: 0.199689830476           
+Viability Ceiling: 88                 
+ 
+Abilities                             
+Magic Guard 99.938%                   
+Inner Focus  0.042%                   
+Synchronize  0.020%                   
+ 
+Items                                 
+Life Orb 97.539%                      
+Other  2.461%                         
+ 
+Spreads                               
+Timid:0/0/24/232/0/252 97.182%        
+Other  2.818%                         
+ 
+Moves                                 
+Focus Blast 99.863%                   
+Shadow Ball 99.493%                   
+Psychic 99.447%                       
+Energy Ball 97.333%                   
+Other  3.864%                         
+ 
+Teammates                             
+Dragonite 97.064%                     
+Landorus-Therian 95.898%              
+Ferrothorn 95.809%                    
+Victini 95.394%                       
+Suicune 95.353%                       
+Suicune 95.353%                        
+ 
+Checks and Counters                   
+
+Pokemon
+Heatran                               
+ 
+Raw count: 30835                      
+Avg. weight: 0.0363463618542          
+Viability Ceiling: 92                 
+ 
+Abilities                             
+Flash Fire 74.412%                    
+Flame Body 25.588%                    
+ 
+Items                                 
+Leftovers 52.663%                     
+Air Balloon 35.802%                   
+Choice Specs  6.185%                  
+Assault Vest  3.572%                  
+Other  1.778%                         
+ 
+Spreads                               
+Timid:0/0/0/252/4/252 17.724%         
+Calm:252/0/0/4/252/0 16.013%          
+Modest:0/0/0/252/4/252  8.079%        
+Calm:252/0/0/0/232/24  5.029%         
+Calm:224/0/0/4/252/28  4.267%         
+Bold:248/0/252/0/8/0  3.899%          
+Other 44.990%                         
+ 
+Moves                                 
+Magma Storm 82.289%                   
+Earth Power 79.269%                   
+Taunt 54.967%                         
+Stealth Rock 52.434%                  
+Toxic 50.505%                         
+Protect 15.622%                       
+Eruption 15.041%                      
+Flash Cannon 13.984%                  
+Lava Plume  8.425%                    
+Flamethrower  6.830%                  
+Will-O-Wisp  5.660%                   
+Other 14.974%                         
+ 
+Teammates                             
+Landorus-Therian 43.108%              
+Kartana 33.774%                       
+Rillaboom 26.571%                     
+Dragapult 25.756%                     
+Zapdos 23.878%                        
+Garchomp 21.999%                      
+Toxapex 21.408%                       
+Weavile 18.401%                       
+Clefable 17.684%                      
+Corviknight 17.413%                   
+Urshifu-Rapid-Strike 12.901%          
+ 
+Checks and Counters                   
+
+Pokemon
+Slowbro                               
+ 
+Raw count: 15243                      
+Avg. weight: 0.0693782248403          
+Viability Ceiling: 93                 
+ 
+Abilities                             
+Regenerator 99.944%                   
+Oblivious  0.046%                     
+Own Tempo  0.010%                     
+ 
+Items                                 
+Heavy-Duty Boots 39.535%              
+Colbur Berry 30.523%                  
+Rocky Helmet 25.470%                  
+Other  4.472%                         
+ 
+Spreads                               
+Relaxed:252/0/252/0/4/0 43.626%       
+Sassy:248/0/8/0/252/0 27.616%         
+Relaxed:248/0/116/0/144/0  4.272%     
+Bold:252/0/252/4/0/0  3.635%          
+Relaxed:248/0/252/8/0/0  3.567%       
+Bold:248/0/252/0/8/0  2.313%          
+Other 14.972%                         
+ 
+Moves                                 
+Slack Off 94.700%                     
+Scald 91.469%                         
+Teleport 71.799%                      
+Future Sight 66.448%                  
+Body Press 32.540%                    
+Trick Room 29.181%                    
+Other 13.863%                         
+ 
+Teammates                             
+Ferrothorn 56.658%                    
+Landorus-Therian 48.139%              
+Garchomp 34.391%                      
+Tornadus-Therian 31.847%              
+Tapu Koko 26.589%                     
+Hatterene 26.451%                     
+Marowak-Alola 25.427%                 
+Drampa 24.604%                        
+Crawdaunt 22.634%                     
+Blissey 16.767%                       
+Weavile 14.652%                       
+ 
+Checks and Counters                   
+Suicune 69.260 (91.96±5.68)            
+ 	 (0.0% KOed / 92.0% switched out)
+
+Pokemon
+Weavile                               
+ 
+Raw count: 24136                      
+Avg. weight: 0.0402592685872          
+Viability Ceiling: 92                 
+ 
+Abilities                             
+Pressure 92.648%                      
+Pickpocket  7.352%                    
+ 
+Items                                 
+Choice Band 36.320%                   
+Life Orb 33.079%                      
+Heavy-Duty Boots 27.814%              
+Other  2.787%                         
+ 
+Spreads                               
+Adamant:0/252/0/0/4/252 48.279%       
+Jolly:0/252/0/0/4/252 41.366%         
+Jolly:0/252/4/0/0/252  5.205%         
+Adamant:0/252/4/0/0/252  2.833%       
+Other  2.316%                         
+ 
+Moves                                 
+Knock Off 99.460%                     
+Ice Shard 97.279%                     
+Triple Axel 88.028%                   
+Swords Dance 60.507%                  
+Low Kick 25.908%                      
+Beat Up 15.931%                       
+Other 12.886%                         
+ 
+Teammates                             
+Garchomp 44.271%                      
+Landorus-Therian 41.224%              
+Mew 22.710%                           
+Kartana 21.622%                       
+Heatran 21.343%                       
+Dragapult 20.615%                     
+Zapdos 19.221%                        
+Ferrothorn 18.684%                    
+Melmetal 18.461%                      
+Blacephalon 16.236%                   
+Slowbro 15.697%                       
+ 
+Checks and Counters                   
+
+Pokemon
+Tornadus-Therian                      
+ 
+Raw count: 15928                      
+Avg. weight: 0.0609278739848          
+Viability Ceiling: 93                 
+ 
+Abilities                             
+Regenerator 100.000%                  
+ 
+Items                                 
+Heavy-Duty Boots 76.311%              
+Assault Vest 21.206%                  
+Other  2.484%                         
+ 
+Spreads                               
+Timid:248/0/8/0/0/252 26.123%         
+Timid:252/0/88/0/0/168 11.023%        
+Timid:36/0/0/220/0/252  6.874%        
+Timid:248/0/92/0/0/168  5.545%        
+Timid:0/0/0/252/4/252  5.064%         
+Timid:248/0/0/0/52/208  4.118%        
+Other 41.254%                         
+ 
+Moves                                 
+U-turn 95.647%                        
+Hurricane 78.713%                     
+Defog 66.909%                         
+Knock Off 53.533%                     
+Taunt 41.818%                         
+Heat Wave 34.458%                     
+Icy Wind 10.593%                      
+Other 18.329%                         
+ 
+Teammates                             
+Ferrothorn 48.033%                    
+Landorus-Therian 43.076%              
+Slowbro 34.244%                       
+Tapu Koko 26.583%                     
+Toxapex 24.993%                       
+Crawdaunt 23.363%                     
+Garchomp 21.345%                      
+Clefable 19.251%                      
+Corviknight 18.070%                   
+Hippowdon 14.589%                     
+Weavile 13.912%                       
+ 
+Checks and Counters                   
+
+Pokemon
+Clefable                              
+ 
+Raw count: 25854                      
+Avg. weight: 0.0364014055079          
+Viability Ceiling: 90                 
+ 
+Abilities                             
+Magic Guard 77.800%                   
+Unaware 22.118%                       
+Cute Charm  0.082%                    
+ 
+Items                                 
+Leftovers 35.426%                     
+Sticky Barb 30.841%                   
+Rocky Helmet 17.974%                  
+Life Orb  7.998%                      
+Heavy-Duty Boots  7.389%              
+Other  0.373%                         
+ 
+Spreads                               
+Bold:252/0/252/0/4/0 18.594%          
+Calm:248/0/200/0/60/0 10.336%         
+Calm:252/0/0/4/252/0 10.149%          
+Bold:252/0/252/0/0/4  8.665%          
+Calm:252/0/200/0/56/0  7.694%         
+Bold:252/0/188/0/0/68  4.927%         
+Other 39.636%                         
+ 
+Moves                                 
+Moonblast 98.808%                     
+Soft-Boiled 93.638%                   
+Thunder Wave 34.005%                  
+Stealth Rock 30.684%                  
+Knock Off 28.100%                     
+Calm Mind 26.411%                     
+Trick 25.047%                         
+Aromatherapy 14.279%                  
+Heal Bell 13.154%                     
+Flamethrower  8.501%                  
+Thunder  7.789%                       
+Other 19.583%                         
+ 
+Teammates                             
+Toxapex 39.568%                       
+Corviknight 35.732%                   
+Landorus-Therian 31.900%              
+Dragapult 26.539%                     
+Garchomp 23.196%                      
+Ferrothorn 22.094%                    
+Heatran 20.528%                       
+Tornadus-Therian 19.196%              
+Rotom-Wash 17.860%                    
+Slowking-Galar 16.180%                
+Blissey 14.775%                       
+ 
+Checks and Counters                   
+
+Pokemon
+Ninetales-Alola                       
+ 
+Raw count: 11855                      
+Avg. weight: 0.0775213092841          
+Viability Ceiling: 88                 
+ 
+Abilities                             
+Snow Warning 100.000%                 
+ 
+Items                                 
+Light Clay 69.413%                    
+Choice Scarf 14.396%                  
+Icy Rock  8.938%                      
+Choice Specs  7.115%                  
+Other  0.138%                         
+ 
+Spreads                               
+Timid:4/0/0/252/0/252 61.235%         
+Timid:0/0/0/252/4/252 20.399%         
+Timid:248/0/0/8/0/252  5.385%         
+Modest:0/0/0/252/4/252  3.353%        
+Timid:248/0/8/0/0/252  2.061%         
+Timid:160/0/0/0/96/252  1.898%        
+Other  5.669%                         
+ 
+Moves                                 
+Freeze-Dry 97.253%                    
+Aurora Veil 82.964%                   
+Hypnosis 69.676%                      
+Hail 61.470%                          
+Moonblast 28.511%                     
+Blizzard 25.085%                      
+Encore 13.839%                        
+Ice Beam  6.235%                      
+Other 14.967%                         
+ 
+Teammates                             
+Landorus-Therian 73.334%              
+Latias 65.614%                        
+Arctozolt 63.613%                     
+Scizor 61.488%                        
+Azumarill 57.297%                     
+Dragapult 20.060%                     
+Garchomp 15.185%                      
+Volcarona 11.478%                     
+Heatran  8.084%                       
+Magnezone  7.729%                     
+Kartana  7.412%                       
+ 
+Checks and Counters                   
+
+Pokemon
+Corviknight                           
+ 
+Raw count: 28327                      
+Avg. weight: 0.0331825505583          
+Viability Ceiling: 90                 
+ 
+Abilities                             
+Pressure 96.316%                      
+Mirror Armor  3.605%                  
+Unnerve  0.079%                       
+ 
+Items                                 
+Leftovers 57.969%                     
+Rocky Helmet 35.956%                  
+Shed Shell  3.558%                    
+Other  2.517%                         
+ 
+Spreads                               
+Impish:252/0/168/0/88/0 40.695%       
+Impish:248/8/252/0/0/0  9.909%        
+Impish:252/0/252/0/4/0  4.714%        
+Relaxed:252/0/168/0/88/0  4.522%      
+Relaxed:248/0/252/0/8/0  4.459%       
+Impish:248/0/252/0/8/0  4.388%        
+Other 31.313%                         
+ 
+Moves                                 
+Roost 99.518%                         
+Defog 88.882%                         
+U-turn 73.952%                        
+Body Press 72.178%                    
+Brave Bird 45.770%                    
+Other 19.701%                         
+ 
+Teammates                             
+Toxapex 49.711%                       
+Landorus-Therian 37.328%              
+Clefable 36.693%                      
+Blissey 29.562%                       
+Dragapult 26.220%                     
+Slowking-Galar 23.412%                
+Heatran 20.758%                       
+Tornadus-Therian 18.504%              
+Hippowdon 18.456%                     
+Blacephalon 17.536%                   
+Weavile 13.863%                       
+ 
+Checks and Counters                   
+
+Pokemon
+Kartana                               
+ 
+Raw count: 31186                      
+Avg. weight: 0.0298590365546          
+Viability Ceiling: 92                 
+ 
+Abilities                             
+Beast Boost 100.000%                  
+ 
+Items                                 
+Choice Scarf 64.352%                  
+Choice Band 10.395%                   
+Adrenaline Orb  6.989%                
+Protective Pads  5.964%               
+Heavy-Duty Boots  4.382%              
+Life Orb  2.436%                      
+Salac Berry  1.386%                   
+Other  4.096%                         
+ 
+Spreads                               
+Jolly:0/252/0/0/4/252 63.946%         
+Jolly:0/252/4/0/0/252 21.541%         
+Adamant:0/252/0/0/4/252  8.075%       
+Jolly:4/252/0/0/0/252  3.556%         
+Other  2.881%                         
+ 
+Moves                                 
+Sacred Sword 98.369%                  
+Leaf Blade 98.123%                    
+Knock Off 92.130%                     
+Smart Strike 75.282%                  
+Swords Dance 23.797%                  
+Other 12.299%                         
+ 
+Teammates                             
+Landorus-Therian 46.795%              
+Heatran 43.188%                       
+Zapdos 28.234%                        
+Dragapult 23.979%                     
+Weavile 23.838%                       
+Garchomp 17.909%                      
+Rillaboom 17.350%                     
+Tapu Lele 14.760%                     
+Toxapex 14.713%                       
+Magnezone 14.400%                     
+Corviknight 13.795%                   
+ 
+Checks and Counters                   
+
+Pokemon
+Zapdos                                
+ 
+Raw count: 26237                      
+Avg. weight: 0.0348178803878          
+Viability Ceiling: 90                 
+ 
+Abilities                             
+Static 94.884%                        
+Pressure  5.116%                      
+ 
+Items                                 
+Heavy-Duty Boots 90.875%              
+Choice Specs  5.136%                  
+Other  3.989%                         
+ 
+Spreads                               
+Timid:248/0/220/0/0/40 15.304%        
+Timid:0/0/0/252/4/252 12.505%         
+Timid:0/0/4/252/0/252  9.450%         
+Timid:128/0/0/128/0/252  7.403%       
+Bold:248/0/136/0/16/108  4.767%       
+Bold:252/0/252/0/4/0  4.759%          
+Other 45.812%                         
+ 
+Moves                                 
+Roost 88.706%                         
+Hurricane 75.759%                     
+Volt Switch 74.519%                   
+Heat Wave 43.749%                     
+Defog 41.823%                         
+Thunderbolt 24.152%                   
+Toxic 13.550%                         
+Discharge 11.015%                     
+Thunder 10.342%                       
+Other 16.384%                         
+ 
+Teammates                             
+Landorus-Therian 35.826%              
+Heatran 30.381%                       
+Urshifu-Rapid-Strike 29.730%          
+Kartana 28.093%                       
+Melmetal 27.205%                      
+Ferrothorn 23.860%                    
+Weavile 21.086%                       
+Tyranitar 20.889%                     
+Rillaboom 18.652%                     
+Dragapult 17.335%                     
+Garchomp 16.067%                      
+ 
+Checks and Counters                   
+
+Pokemon
+Toxapex                               
+ 
+Raw count: 30318                      
+Avg. weight: 0.0285071557884          
+Viability Ceiling: 92                 
+ 
+Abilities                             
+Regenerator 99.928%                   
+Merciless  0.052%                     
+Limber  0.019%                        
+ 
+Items                                 
+Rocky Helmet 36.150%                  
+Shed Shell 22.033%                    
+Black Sludge 21.519%                  
+Eject Button  6.738%                  
+Choice Band  6.295%                   
+Heavy-Duty Boots  3.797%              
+Other  3.467%                         
+ 
+Spreads                               
+Bold:252/0/252/0/4/0 13.807%          
+Bold:252/0/144/0/112/0 11.458%        
+Impish:252/4/252/0/0/0 10.923%        
+Impish:252/0/172/0/84/0  7.964%       
+Adamant:248/252/0/0/8/0  5.890%       
+Impish:252/0/252/0/4/0  3.812%        
+Other 46.148%                         
+ 
+Moves                                 
+Recover 92.928%                       
+Haze 69.100%                          
+Knock Off 68.524%                     
+Scald 64.975%                         
+Toxic 42.987%                         
+Toxic Spikes 23.645%                  
+Light Screen 14.333%                  
+Gunk Shot  6.520%                     
+Other 16.988%                         
+ 
+Teammates                             
+Corviknight 54.251%                   
+Clefable 44.344%                      
+Landorus-Therian 38.444%              
+Blissey 28.620%                       
+Tornadus-Therian 27.930%              
+Heatran 27.851%                       
+Dragapult 18.562%                     
+Slowking-Galar 17.594%                
+Hippowdon 17.063%                     
+Quagsire 16.613%                      
+Kartana 14.969%                       
+ 
+Checks and Counters                   
+
+Pokemon
+Melmetal                              
+ 
+Raw count: 32451                      
+Avg. weight: 0.0251959605185          
+Viability Ceiling: 92                 
+ 
+Abilities                             
+Iron Fist 100.000%                    
+ 
+Items                                 
+Leftovers 35.289%                     
+Choice Band 19.512%                   
+Protective Pads 18.437%               
+Assault Vest 14.628%                  
+Life Orb 10.877%                      
+Other  1.257%                         
+ 
+Spreads                               
+Adamant:0/252/0/0/244/12 12.955%      
+Brave:232/252/24/0/0/0  8.954%        
+Adamant:32/252/0/0/0/224  7.075%      
+Adamant:200/252/4/0/0/52  6.464%      
+Adamant:148/252/0/0/0/108  5.286%     
+Adamant:20/232/0/0/224/32  4.518%     
+Other 54.747%                         
+ 
+Moves                                 
+Double Iron Bash 99.946%              
+Thunder Punch 67.922%                 
+Superpower 53.718%                    
+Earthquake 49.587%                    
+Ice Punch 38.968%                     
+Toxic 33.808%                         
+Protect 32.935%                       
+Thunder Wave 11.979%                  
+Other 11.139%                         
+ 
+Teammates                             
+Landorus-Therian 51.754%              
+Zapdos 32.004%                        
+Dragapult 25.382%                     
+Weavile 23.824%                       
+Cresselia 19.060%                     
+Hatterene 17.257%                     
+Volcanion 16.747%                     
+Rillaboom 16.455%                     
+Garchomp 16.326%                      
+Tornadus-Therian 15.185%              
+Kartana 14.872%                       
+ 
+Checks and Counters                   
+
+Pokemon
+Urshifu-Rapid-Strike                  
+ 
+Raw count: 29804                      
+Avg. weight: 0.0236748191571          
+Viability Ceiling: 90                 
+ 
+Abilities                             
+Unseen Fist 100.000%                  
+ 
+Items                                 
+Choice Band 46.723%                   
+Protective Pads 41.864%               
+Choice Scarf  7.965%                  
+Other  3.448%                         
+ 
+Spreads                               
+Jolly:0/252/4/0/0/252 49.417%         
+Jolly:0/252/0/0/4/252 35.169%         
+Adamant:252/252/4/0/0/0  4.307%       
+Jolly:4/252/0/0/0/252  3.758%         
+Adamant:0/252/0/0/4/252  2.554%       
+Other  4.795%                         
+ 
+Moves                                 
+Surging Strikes 99.926%               
+Close Combat 85.188%                  
+U-turn 85.006%                        
+Aqua Jet 55.479%                      
+Taunt 24.277%                         
+Thunder Punch 16.071%                 
+Ice Punch 13.903%                     
+Whirlpool 12.028%                     
+Other  8.123%                         
+ 
+Teammates                             
+Landorus-Therian 61.453%              
+Tapu Lele 36.710%                     
+Zapdos 36.502%                        
+Dragapult 32.640%                     
+Ferrothorn 25.435%                    
+Heatran 20.152%                       
+Slowking-Galar 19.210%                
+Tyranitar 16.064%                     
+Kartana 14.633%                       
+Volcarona 14.467%                     
+Dragonite 14.379%                     
+ 
+Checks and Counters                   
+
+Pokemon
+Scizor                                
+ 
+Raw count: 9543                       
+Avg. weight: 0.0804700195065          
+Viability Ceiling: 87                 
+ 
+Abilities                             
+Technician 97.502%                    
+Swarm  2.489%                         
+Light Metal  0.010%                   
+ 
+Items                                 
+Leftovers 97.117%                     
+Other  2.883%                         
+ 
+Spreads                               
+Adamant:236/252/0/0/0/20 83.849%      
+Careful:248/0/8/0/252/0  3.355%       
+Adamant:0/252/0/0/4/252  2.490%       
+Sassy:248/0/8/0/252/0  2.483%         
+Adamant:100/252/4/0/0/152  1.760%     
+Adamant:40/252/0/0/0/216  1.737%      
+Other  4.327%                         
+ 
+Moves                                 
+Bullet Punch 97.515%                  
+Roost 93.500%                         
+Swords Dance 92.179%                  
+Bug Bite 84.263%                      
+Knock Off 13.379%                     
+Other 19.163%                         
+ 
+Teammates                             
+Ninetales-Alola 82.928%               
+Landorus-Therian 81.150%              
+Latias 80.571%                        
+Azumarill 77.276%                     
+Arctozolt 64.776%                     
+Dragapult 14.492%                     
+Garchomp  8.045%                      
+Clefable  7.909%                      
+Zapdos  7.561%                        
+Heatran  6.384%                       
+Dragonite  4.111%                     
+ 
+Checks and Counters                   
+
+Pokemon
+Azumarill                             
+ 
+Raw count: 6490                       
+Avg. weight: 0.0962144828742          
+Viability Ceiling: 85                 
+ 
+Abilities                             
+Huge Power 99.791%                    
+Sap Sipper  0.208%                    
+Thick Fat  0.001%                     
+ 
+Items                                 
+Sitrus Berry 99.455%                  
+Other  0.545%                         
+ 
+Spreads                               
+Adamant:116/252/0/0/0/140 84.498%     
+Adamant:4/252/0/0/0/252 13.129%       
+Other  2.373%                         
+ 
+Moves                                 
+Aqua Jet 99.791%                      
+Play Rough 99.679%                    
+Belly Drum 99.605%                    
+Knock Off 99.412%                     
+Other  1.513%                         
+ 
+Teammates                             
+Landorus-Therian 83.479%              
+Latias 82.662%                        
+Scizor 82.595%                        
+Ninetales-Alola 82.595%               
+Arctozolt 65.438%                     
+Weavile 12.754%                       
+Garchomp 12.733%                      
+Celesteela 12.676%                    
+Mew 12.654%                           
+Blacephalon 12.653%                   
+Dragapult  8.743%                     
+ 
+Checks and Counters                   
+
+Pokemon
+Latias                                
+ 
+Raw count: 2486                       
+Avg. weight: 0.22519126645            
+Viability Ceiling: 85                 
+ 
+Abilities                             
+Levitate 100.000%                     
+ 
+Items                                 
+Choice Scarf 87.701%                  
+Weakness Policy 11.656%               
+Other  0.643%                         
+ 
+Spreads                               
+Timid:252/0/0/0/4/252 87.664%         
+Bold:252/0/252/4/0/0 10.543%          
+Other  1.793%                         
+ 
+Moves                                 
+Psychic 87.832%                       
+Defog 87.730%                         
+Healing Wish 87.719%                  
+Trick 87.699%                         
+Calm Mind 12.176%                     
+Aura Sphere 11.874%                   
+Stored Power 11.704%                  
+Other 13.267%                         
+ 
+Teammates                             
+Landorus-Therian 96.346%              
+Ninetales-Alola 95.820%               
+Scizor 87.242%                        
+Azumarill 83.742%                     
+Arctozolt 78.456%                     
+Zapdos-Galar  9.452%                  
+Dragapult  8.729%                     
+Klefki  8.550%                        
+Latios  3.552%                        
+Toxtricity  1.931%                    
+Kartana  1.877%                       
+ 
+Checks and Counters                   
+
+Pokemon
+Tapu Lele                             
+ 
+Raw count: 18166                      
+Avg. weight: 0.0385946123544          
+Viability Ceiling: 92                 
+ 
+Abilities                             
+Psychic Surge 100.000%                
+Telepathy  0.000%                     
+ 
+Items                                 
+Choice Scarf 59.184%                  
+Choice Specs 24.217%                  
+Assault Vest  7.354%                  
+Terrain Extender  2.586%              
+Kasib Berry  1.556%                   
+Life Orb  1.055%                      
+Other  4.047%                         
+ 
+Spreads                               
+Modest:0/0/0/252/4/252 37.290%        
+Timid:0/0/0/252/4/252 34.051%         
+Modest:0/0/4/252/0/252 11.129%        
+Timid:0/0/4/252/0/252  4.341%         
+Timid:0/0/0/252/0/252  2.461%         
+Modest:80/0/0/212/0/216  2.062%       
+Other  8.666%                         
+ 
+Moves                                 
+Moonblast 94.654%                     
+Focus Blast 76.139%                   
+Psyshock 72.160%                      
+Psychic 56.092%                       
+Future Sight 46.922%                  
+Thunderbolt 30.275%                   
+Thunder  5.592%                       
+Other 18.168%                         
+ 
+Teammates                             
+Landorus-Therian 41.533%              
+Urshifu-Rapid-Strike 41.106%          
+Ferrothorn 40.649%                    
+Dragapult 26.626%                     
+Garchomp 25.945%                      
+Kartana 20.190%                       
+Zapdos 19.773%                        
+Tornadus-Therian 18.978%              
+Toxapex 17.026%                       
+Heatran 15.983%                       
+Pelipper 14.340%                      
+ 
+Checks and Counters                   
+
+Pokemon
+Arctozolt                             
+ 
+Raw count: 4555                       
+Avg. weight: 0.128806296327           
+Viability Ceiling: 88                 
+ 
+Abilities                             
+Slush Rush 99.928%                    
+Volt Absorb  0.039%                   
+Static  0.033%                        
+ 
+Items                                 
+Leftovers 89.868%                     
+Heavy-Duty Boots  9.460%              
+Other  0.672%                         
+ 
+Spreads                               
+Naive:0/252/0/4/0/252 85.441%         
+Naive:0/200/0/76/0/232  5.041%        
+Naughty:0/252/0/4/0/252  4.568%       
+Other  4.950%                         
+ 
+Moves                                 
+Bolt Beak 99.994%                     
+Substitute 92.427%                    
+Hail 83.588%                          
+Blizzard 75.283%                      
+Freeze-Dry 30.543%                    
+Other 18.165%                         
+ 
+Teammates                             
+Ninetales-Alola 96.095%               
+Landorus-Therian 90.923%              
+Latias 81.156%                        
+Scizor 72.554%                        
+Azumarill 68.575%                     
+Zapdos-Galar  8.845%                  
+Klefki  8.844%                        
+Corviknight  8.628%                   
+Tornadus-Therian  6.207%              
+Volcanion  5.734%                     
+Heatran  4.782%                       
+ 
+Checks and Counters                   
+
+Pokemon
+Rillaboom                             
+ 
+Raw count: 28163                      
+Avg. weight: 0.0214619088015          
+Viability Ceiling: 92                 
+ 
+Abilities                             
+Grassy Surge 99.971%                  
+Overgrow  0.029%                      
+ 
+Items                                 
+Choice Band 46.481%                   
+Life Orb 16.974%                      
+Leftovers 16.310%                     
+Lum Berry  7.667%                     
+Miracle Seed  4.326%                  
+Terrain Extender  4.133%              
+Other  4.108%                         
+ 
+Spreads                               
+Adamant:0/252/0/0/4/252 37.263%       
+Adamant:0/252/4/0/0/252 16.549%       
+Adamant:236/252/0/0/0/20  8.092%      
+Adamant:4/252/0/0/0/252  6.000%       
+Adamant:252/252/0/0/4/0  5.600%       
+Jolly:0/252/0/0/4/252  5.371%         
+Other 21.125%                         
+ 
+Moves                                 
+Grassy Glide 99.855%                  
+Knock Off 78.916%                     
+Superpower 51.593%                    
+U-turn 47.028%                        
+Swords Dance 45.621%                  
+Wood Hammer 43.400%                   
+Drain Punch 19.540%                   
+Other 14.049%                         
+ 
+Teammates                             
+Heatran 47.745%                       
+Landorus-Therian 33.637%              
+Zapdos 26.341%                        
+Kartana 24.380%                       
+Dragapult 19.832%                     
+Melmetal 19.754%                      
+Garchomp 15.467%                      
+Tornadus-Therian 15.182%              
+Blaziken 14.507%                      
+Hawlucha 13.945%                      
+Urshifu-Rapid-Strike 13.738%          
+ 
+Checks and Counters                   
+
+Pokemon
+Blacephalon                           
+ 
+Raw count: 15834                      
+Avg. weight: 0.0373772209748          
+Viability Ceiling: 89                 
+ 
+Abilities                             
+Beast Boost 100.000%                  
+ 
+Items                                 
+Choice Scarf 56.261%                  
+Choice Specs 41.791%                  
+Other  1.948%                         
+ 
+Spreads                               
+Timid:0/0/0/252/4/252 82.015%         
+Modest:0/0/0/252/4/252  6.371%        
+Timid:4/0/0/252/0/252  4.506%         
+Timid:0/0/4/252/0/252  3.966%         
+Other  3.142%                         
+ 
+Moves                                 
+Shadow Ball 99.927%                   
+Flamethrower 94.994%                  
+Trick 89.297%                         
+Overheat 75.305%                      
+Fire Blast 10.138%                    
+Taunt  7.110%                         
+Psychic  6.849%                       
+Other 16.380%                         
+ 
+Teammates                             
+Landorus-Therian 60.523%              
+Dragapult 33.424%                     
+Garchomp 28.534%                      
+Corviknight 28.227%                   
+Weavile 26.861%                       
+Buzzwole 25.390%                      
+Blissey 22.856%                       
+Clefable 22.425%                      
+Toxapex 20.372%                       
+Mew 19.071%                           
+Celesteela 18.119%                    
+ 
+Checks and Counters                   
+
+Pokemon
+Blissey                               
+ 
+Raw count: 17848                      
+Avg. weight: 0.032322515106           
+Viability Ceiling: 90                 
+ 
+Abilities                             
+Natural Cure 92.039%                  
+Serene Grace  6.097%                  
+Healer  1.864%                        
+ 
+Items                                 
+Heavy-Duty Boots 72.236%              
+Leftovers 25.100%                     
+Other  2.664%                         
+ 
+Spreads                               
+Bold:252/0/252/0/4/0 68.291%          
+Bold:252/0/252/4/0/0 10.411%          
+Bold:252/0/252/0/0/4  8.705%          
+Bold:252/0/252/0/0/0  3.929%          
+Bold:248/0/252/0/0/8  2.821%          
+Bold:160/0/252/0/96/0  1.486%         
+Other  4.357%                         
+ 
+Moves                                 
+Soft-Boiled 98.033%                   
+Seismic Toss 88.269%                  
+Toxic 59.475%                         
+Teleport 45.652%                      
+Stealth Rock 41.230%                  
+Aromatherapy 22.421%                  
+Thunder Wave 19.697%                  
+Shadow Ball  8.837%                   
+Other 16.386%                         
+ 
+Teammates                             
+Corviknight 47.148%                   
+Toxapex 41.826%                       
+Buzzwole 34.297%                      
+Slowbro 29.445%                       
+Landorus-Therian 25.893%              
+Clefable 24.199%                      
+Blacephalon 22.646%                   
+Quagsire 18.725%                      
+Hippowdon 15.116%                     
+Weavile 13.138%                       
+Latios 12.780%                        
+ 
+Checks and Counters                   
+Suicune 54.251 (84.16±7.48)            
+ 	 (0.0% KOed / 84.2% switched out)
+
+Pokemon
+Tapu Koko                             
+ 
+Raw count: 16011                      
+Avg. weight: 0.0326692395074          
+Viability Ceiling: 93                 
+ 
+Abilities                             
+Electric Surge 99.994%                
+Telepathy  0.006%                     
+ 
+Items                                 
+Heavy-Duty Boots 79.442%              
+Choice Scarf 10.772%                  
+Choice Specs  3.707%                  
+Terrain Extender  2.021%              
+Other  4.058%                         
+ 
+Spreads                               
+Timid:16/0/0/216/24/252 44.731%       
+Timid:0/0/0/252/4/252 32.946%         
+Naive:0/4/0/252/0/252  9.434%         
+Timid:128/0/0/164/0/216  3.445%       
+Timid:0/0/4/252/0/252  2.654%         
+Modest:0/0/4/252/0/252  1.464%        
+Other  5.326%                         
+ 
+Moves                                 
+Dazzling Gleam 93.451%                
+Thunderbolt 88.042%                   
+Roost 76.399%                         
+Calm Mind 49.230%                     
+U-turn 36.601%                        
+Taunt 11.847%                         
+Volt Switch 11.635%                   
+Defog 10.627%                         
+Thunder  5.050%                       
+Other 17.117%                         
+ 
+Teammates                             
+Landorus-Therian 82.572%              
+Ferrothorn 62.065%                    
+Slowbro 54.172%                       
+Tornadus-Therian 50.369%              
+Crawdaunt 44.322%                     
+Heatran 17.017%                       
+Dragapult 11.926%                     
+Rillaboom 10.890%                     
+Hawlucha 10.614%                      
+Victini  9.075%                       
+Clefable  7.868%                      
+ 
+Checks and Counters                   
+
+Pokemon
+Buzzwole                              
+ 
+Raw count: 12605                      
+Avg. weight: 0.0388454692023          
+Viability Ceiling: 87                 
+ 
+Abilities                             
+Beast Boost 100.000%                  
+ 
+Items                                 
+Rocky Helmet 57.219%                  
+Leftovers 17.931%                     
+Heavy-Duty Boots 12.112%              
+Choice Scarf  5.604%                  
+Choice Band  3.743%                   
+Other  3.390%                         
+ 
+Spreads                               
+Adamant:200/68/200/0/12/28 17.328%    
+Adamant:152/168/0/0/0/188 13.354%     
+Impish:252/4/252/0/0/0 11.974%        
+Impish:252/0/144/0/0/112 11.073%      
+Jolly:0/252/0/0/4/252  7.927%         
+Impish:252/76/128/0/0/52  6.636%      
+Other 31.709%                         
+ 
+Moves                                 
+Ice Punch 96.073%                     
+Roost 87.868%                         
+Close Combat 67.890%                  
+Toxic 33.169%                         
+Thunder Punch 23.017%                 
+Leech Life 21.068%                    
+Substitute 18.024%                    
+Focus Punch 17.814%                   
+Drain Punch 13.847%                   
+Earthquake  9.593%                    
+Other 11.638%                         
+ 
+Teammates                             
+Landorus-Therian 49.096%              
+Blissey 44.526%                       
+Blacephalon 32.660%                   
+Heatran 23.501%                       
+Slowbro 23.267%                       
+Toxapex 20.799%                       
+Clefable 18.533%                      
+Slowking 18.299%                      
+Latios 17.758%                        
+Melmetal 17.236%                      
+Garchomp 16.983%                      
+ 
+Checks and Counters                   
+
+Pokemon
+Tyranitar                             
+ 
+Raw count: 21289                      
+Avg. weight: 0.0210143298385          
+Viability Ceiling: 89                 
+ 
+Abilities                             
+Sand Stream 99.935%                   
+Unnerve  0.065%                       
+ 
+Items                                 
+Choice Band 61.845%                   
+Leftovers 22.352%                     
+Smooth Rock  9.256%                   
+Assault Vest  5.095%                  
+Other  1.452%                         
+ 
+Spreads                               
+Adamant:0/252/0/0/4/252 44.842%       
+Careful:252/0/4/0/252/0 12.406%       
+Adamant:4/252/0/0/0/252  8.839%       
+Adamant:0/252/4/0/0/252  5.049%       
+Sassy:180/0/40/116/172/0  3.486%      
+Adamant:252/252/0/0/4/0  3.432%       
+Other 21.946%                         
+ 
+Moves                                 
+Stone Edge 72.573%                    
+Crunch 70.248%                        
+Fire Punch 48.803%                    
+Ice Punch 39.133%                     
+Earthquake 25.676%                    
+Heavy Slam 24.996%                    
+Stealth Rock 24.988%                  
+Superpower 21.298%                    
+Rock Blast 19.016%                    
+Thunder Wave 11.773%                  
+Toxic 10.195%                         
+Ice Beam  6.699%                      
+Flamethrower  4.423%                  
+Assurance  3.935%                     
+Other 16.245%                         
+ 
+Teammates                             
+Excadrill 44.199%                     
+Zapdos 42.240%                        
+Ferrothorn 35.345%                    
+Landorus-Therian 28.333%              
+Clefable 28.026%                      
+Urshifu-Rapid-Strike 26.457%          
+Dragapult 21.579%                     
+Rotom-Wash 20.435%                    
+Tapu Lele 16.625%                     
+Buzzwole 16.432%                      
+Melmetal 15.534%                      
+ 
+Checks and Counters                   
+
+Pokemon
+Hatterene                             
+ 
+Raw count: 11987                      
+Avg. weight: 0.0384890715063          
+Viability Ceiling: 90                 
+ 
+Abilities                             
+Magic Bounce 99.728%                  
+Healer  0.269%                        
+Anticipation  0.003%                  
+ 
+Items                                 
+Kasib Berry 64.613%                   
+Focus Sash 26.509%                    
+Leftovers  5.014%                     
+Other  3.864%                         
+ 
+Spreads                               
+Calm:252/0/104/0/152/0 63.258%        
+Quiet:252/0/0/252/4/0 18.964%         
+Relaxed:252/0/252/4/0/0  2.750%       
+Modest:252/0/4/252/0/0  2.732%        
+Quiet:252/0/80/176/0/0  2.699%        
+Bold:252/0/252/0/4/0  1.599%          
+Other  7.999%                         
+ 
+Moves                                 
+Mystical Fire 98.882%                 
+Trick Room 94.704%                    
+Healing Wish 74.641%                  
+Draining Kiss 65.838%                 
+Misty Explosion 19.228%               
+Psyshock 17.246%                      
+Psychic 10.241%                       
+Other 19.220%                         
+ 
+Teammates                             
+Marowak-Alola 79.014%                 
+Slowbro 61.461%                       
+Garchomp 57.674%                      
+Ferrothorn 57.511%                    
+Drampa 57.170%                        
+Melmetal 29.003%                      
+Porygon2 24.803%                      
+Cresselia 22.745%                     
+Xurkitree 14.529%                     
+Crawdaunt  7.307%                     
+Landorus-Therian  4.539%              
+ 
+Checks and Counters                   
+
+Pokemon
+Slowking-Galar                        
+ 
+Raw count: 11111                      
+Avg. weight: 0.0386282002863          
+Viability Ceiling: 92                 
+ 
+Abilities                             
+Regenerator 99.960%                   
+Curious Medicine  0.039%              
+Own Tempo  0.000%                     
+ 
+Items                                 
+Assault Vest 67.498%                  
+Choice Scarf 19.595%                  
+Black Sludge  9.151%                  
+Other  3.755%                         
+ 
+Spreads                               
+Calm:252/0/0/96/160/0 20.209%         
+Calm:252/0/12/124/120/0 18.876%       
+Modest:248/0/0/192/68/0  9.936%       
+Modest:252/0/0/248/0/8  6.217%        
+Bold:176/0/252/0/0/80  4.668%         
+Calm:252/0/0/0/0/0  4.599%            
+Other 35.495%                         
+ 
+Moves                                 
+Sludge Bomb 91.092%                   
+Future Sight 84.789%                  
+Scald 80.356%                         
+Flamethrower 69.752%                  
+Trick 25.965%                         
+Nasty Plot  9.906%                    
+Psychic  8.567%                       
+Ice Beam  7.429%                      
+Earthquake  7.007%                    
+Other 15.137%                         
+ 
+Teammates                             
+Landorus-Therian 53.653%              
+Corviknight 52.081%                   
+Clefable 36.962%                      
+Toxapex 35.864%                       
+Urshifu-Rapid-Strike 32.610%          
+Heatran 23.513%                       
+Dragapult 20.218%                     
+Zapdos 19.906%                        
+Tyranitar 15.872%                     
+Weavile 15.083%                       
+Ferrothorn 14.144%                    
+ 
+Checks and Counters                   
+
+Pokemon
+Crawdaunt                             
+ 
+Raw count: 8003                       
+Avg. weight: 0.0482300327338          
+Viability Ceiling: 93                 
+ 
+Abilities                             
+Adaptability 100.000%                 
+Hyper Cutter  0.000%                  
+Shell Armor  0.000%                   
+ 
+Items                                 
+Choice Band 66.492%                   
+Life Orb 30.471%                      
+Other  3.037%                         
+ 
+Spreads                               
+Adamant:0/252/0/0/4/252 78.420%       
+Adamant:0/252/4/0/0/252  8.933%       
+Brave:252/252/0/0/4/0  5.412%         
+Brave:252/252/4/0/0/0  3.349%         
+Other  3.886%                         
+ 
+Moves                                 
+Knock Off 99.894%                     
+Aqua Jet 99.450%                      
+Crabhammer 93.356%                    
+Crunch 65.666%                        
+Swords Dance 32.023%                  
+Other  9.611%                         
+ 
+Teammates                             
+Ferrothorn 73.231%                    
+Landorus-Therian 67.673%              
+Slowbro 63.520%                       
+Tapu Koko 61.051%                     
+Tornadus-Therian 60.976%              
+Pelipper 15.933%                      
+Barraskewda 12.118%                   
+Zapdos 11.739%                        
+Melmetal 11.310%                      
+Seismitoad  9.355%                    
+Hatterene  8.825%                     
+ 
+Checks and Counters                   
+
+Pokemon
+Marowak-Alola                         
+ 
+Raw count: 7349                       
+Avg. weight: 0.0535632424406          
+Viability Ceiling: 85                 
+ 
+Abilities                             
+Rock Head 99.580%                     
+Lightning Rod  0.419%                 
+Cursed Body  0.001%                   
+ 
+Items                                 
+Thick Club 99.979%                    
+Other  0.021%                         
+ 
+Spreads                               
+Adamant:72/252/0/0/0/184 72.267%      
+Brave:240/252/12/0/0/4 17.192%        
+Brave:248/252/0/0/8/0  5.849%         
+Other  4.692%                         
+ 
+Moves                                 
+Flare Blitz 99.997%                   
+Poltergeist 99.094%                   
+Swords Dance 79.808%                  
+Substitute 73.089%                    
+Earthquake 21.247%                    
+Thunder Punch 17.194%                 
+Other  9.571%                         
+ 
+Teammates                             
+Hatterene 90.266%                     
+Slowbro 67.495%                       
+Garchomp 65.436%                      
+Ferrothorn 65.313%                    
+Drampa 65.312%                        
+Melmetal 25.619%                      
+Porygon2 24.708%                      
+Cresselia 23.660%                     
+Xurkitree 16.598%                     
+Crawdaunt  7.403%                     
+Landorus-Therian  1.545%              
+ 
+Checks and Counters                   
+
+Pokemon
+Volcarona                             
+ 
+Raw count: 22354                      
+Avg. weight: 0.0181302004295          
+Viability Ceiling: 90                 
+ 
+Abilities                             
+Flame Body 86.710%                    
+Swarm 13.290%                         
+ 
+Items                                 
+Heavy-Duty Boots 86.728%              
+Leftovers  8.693%                     
+Other  4.579%                         
+ 
+Spreads                               
+Timid:252/0/0/4/0/252 24.110%         
+Timid:0/0/0/252/4/252 21.299%         
+Timid:40/0/0/252/0/216 12.463%        
+Bold:248/0/240/0/0/20  8.898%         
+Bold:248/0/180/0/0/80  5.760%         
+Modest:0/0/0/252/4/252  5.354%        
+Other 22.116%                         
+ 
+Moves                                 
+Quiver Dance 99.822%                  
+Flamethrower 64.947%                  
+Bug Buzz 53.051%                      
+Roost 50.852%                         
+Psychic 34.975%                       
+Fiery Dance 28.319%                   
+Safeguard 25.146%                     
+Giga Drain 18.474%                    
+Substitute 15.829%                    
+Other  8.584%                         
+ 
+Teammates                             
+Landorus-Therian 45.170%              
+Dragonite 33.269%                     
+Ninetales-Alola 30.492%               
+Urshifu-Rapid-Strike 29.000%          
+Garchomp 26.004%                      
+Aegislash 24.246%                     
+Tangrowth 23.459%                     
+Weavile 20.855%                       
+Dragapult 14.872%                     
+Cloyster 14.507%                      
+Heatran 10.683%                       
+ 
+Checks and Counters                   
+
+Pokemon
+Tapu Fini                             
+ 
+Raw count: 12034                      
+Avg. weight: 0.0307443637714          
+Viability Ceiling: 92                 
+ 
+Abilities                             
+Misty Surge 99.955%                   
+Telepathy  0.045%                     
+ 
+Items                                 
+Leftovers 58.266%                     
+Choice Scarf 39.061%                  
+Other  2.673%                         
+ 
+Spreads                               
+Timid:248/0/0/0/44/216 20.400%        
+Bold:252/0/252/4/0/0 11.073%          
+Calm:252/0/216/0/40/0  7.956%         
+Bold:252/0/116/0/0/140  7.579%        
+Bold:248/0/252/0/0/8  5.006%          
+Bold:248/0/72/32/0/156  3.963%        
+Other 44.023%                         
+ 
+Moves                                 
+Taunt 58.450%                         
+Scald 56.579%                         
+Moonblast 55.976%                     
+Calm Mind 42.908%                     
+Draining Kiss 41.844%                 
+Trick 39.102%                         
+Defog 30.372%                         
+Surf 24.161%                          
+Nature's Madness 16.115%              
+Whirlpool 13.694%                     
+Ice Beam  8.833%                      
+Other 11.966%                         
+ 
+Teammates                             
+Landorus-Therian 65.802%              
+Heatran 38.709%                       
+Kartana 28.357%                       
+Dragapult 27.487%                     
+Zapdos 20.618%                        
+Garchomp 19.350%                      
+Weavile 18.726%                       
+Ferrothorn 18.041%                    
+Blacephalon 17.028%                   
+Slowking-Galar 16.764%                
+Rillaboom 14.841%                     
+ 
+Checks and Counters                   
+
+Pokemon
+Mew                                   
+ 
+Raw count: 12691                      
+Avg. weight: 0.0246964521605          
+Viability Ceiling: 88                 
+ 
+Abilities                             
+Synchronize 100.000%                  
+ 
+Items                                 
+Colbur Berry 37.593%                  
+Focus Sash 34.458%                    
+Leftovers 11.786%                     
+Weakness Policy  4.992%               
+Lum Berry  2.435%                     
+Red Card  2.239%                      
+Muscle Band  1.658%                   
+Other  4.839%                         
+ 
+Spreads                               
+Jolly:252/4/0/0/0/252 34.810%         
+Timid:252/0/4/0/0/252 15.339%         
+Jolly:112/0/0/0/144/252 10.542%       
+Timid:252/0/0/0/4/252  9.725%         
+Adamant:0/252/4/0/0/252  9.025%       
+Timid:252/0/0/4/0/252  2.841%         
+Other 17.718%                         
+ 
+Moves                                 
+Taunt 77.849%                         
+Stealth Rock 75.071%                  
+Spikes 74.692%                        
+Thunder Wave 57.702%                  
+Will-O-Wisp 15.281%                   
+Close Combat 11.803%                  
+Dragon Dance 10.810%                  
+Psychic Fangs 10.758%                 
+Poltergeist  8.984%                   
+Cosmic Power  8.593%                  
+Stored Power  8.557%                  
+Roost  7.004%                         
+Soft-Boiled  4.651%                   
+Body Press  3.992%                    
+Explosion  3.344%                     
+Triple Axel  2.663%                   
+Other 18.245%                         
+ 
+Teammates                             
+Weavile 74.206%                       
+Garchomp 62.826%                      
+Celesteela 42.216%                    
+Blacephalon 37.667%                   
+Azumarill 28.223%                     
+Dragapult 22.821%                     
+Kartana 21.064%                       
+Dragonite 17.582%                     
+Landorus-Therian 14.227%              
+Volcarona 12.737%                     
+Cloyster 11.268%                      
+ 
+Checks and Counters                   
+
+Pokemon
+Rotom-Wash                            
+ 
+Raw count: 14437                      
+Avg. weight: 0.0214203694878          
+Viability Ceiling: 92                 
+ 
+Abilities                             
+Levitate 100.000%                     
+ 
+Items                                 
+Leftovers 93.865%                     
+Rocky Helmet  3.068%                  
+Other  3.067%                         
+ 
+Spreads                               
+Modest:248/0/16/32/80/132 16.400%     
+Timid:252/0/0/0/4/252  9.687%         
+Calm:252/0/0/0/248/8  7.246%          
+Timid:248/0/0/8/0/252  6.344%         
+Calm:252/0/0/0/168/88  5.779%         
+Modest:252/0/12/116/0/128  5.149%     
+Other 49.394%                         
+ 
+Moves                                 
+Hydro Pump 99.755%                    
+Volt Switch 93.426%                   
+Pain Split 91.668%                    
+Toxic 27.372%                         
+Will-O-Wisp 25.697%                   
+Nasty Plot 22.240%                    
+Thunder Wave 21.270%                  
+Other 18.573%                         
+ 
+Teammates                             
+Clefable 59.447%                      
+Ferrothorn 51.121%                    
+Dragapult 33.248%                     
+Weavile 33.000%                       
+Landorus-Therian 32.507%              
+Garchomp 31.581%                      
+Tyranitar 30.690%                     
+Excadrill 30.005%                     
+Tornadus-Therian 26.606%              
+Heatran 21.373%                       
+Kartana 16.594%                       
+ 
+Checks and Counters                   
+
+Pokemon
+Pelipper                              
+ 
+Raw count: 16806                      
+Avg. weight: 0.0176407705398          
+Viability Ceiling: 88                 
+ 
+Abilities                             
+Drizzle 99.964%                       
+Keen Eye  0.033%                      
+Rain Dish  0.002%                     
+ 
+Items                                 
+Damp Rock 84.974%                     
+Choice Specs 12.832%                  
+Other  2.194%                         
+ 
+Spreads                               
+Sassy:248/0/8/0/252/0 33.584%         
+Bold:248/0/252/0/8/0 17.956%          
+Relaxed:248/0/252/0/8/0  7.136%       
+Bold:248/0/240/0/0/20  6.213%         
+Bold:248/0/252/8/0/0  5.761%          
+Timid:0/0/0/252/4/252  4.297%         
+Other 25.053%                         
+ 
+Moves                                 
+U-turn 97.829%                        
+Roost 84.834%                         
+Scald 70.121%                         
+Defog 63.865%                         
+Hurricane 36.898%                     
+Weather Ball 12.621%                  
+Toxic  8.114%                         
+Surf  8.025%                          
+Other 17.693%                         
+ 
+Teammates                             
+Barraskewda 78.925%                   
+Ferrothorn 73.376%                    
+Seismitoad 42.204%                    
+Tapu Lele 32.619%                     
+Zapdos 28.670%                        
+Garchomp 25.670%                      
+Porygon-Z 23.847%                     
+Tornadus-Therian 20.986%              
+Crawdaunt 20.865%                     
+Kingdra 18.979%                       
+Landorus-Therian 13.963%              
+ 
+Checks and Counters                   
+
+Pokemon
+Volcanion                             
+ 
+Raw count: 11276                      
+Avg. weight: 0.0268322831565          
+Viability Ceiling: 89                 
+ 
+Abilities                             
+Water Absorb 100.000%                 
+ 
+Items                                 
+Choice Specs 74.151%                  
+Heavy-Duty Boots 11.801%              
+Mystic Water  6.125%                  
+Assault Vest  5.027%                  
+Other  2.896%                         
+ 
+Spreads                               
+Modest:0/0/4/252/0/252 27.093%        
+Timid:0/0/0/252/4/252 14.687%         
+Timid:4/0/0/252/0/252 13.403%         
+Modest:0/0/0/252/4/252 10.052%        
+Modest:224/0/0/252/0/32  6.256%       
+Modest:64/0/0/252/0/192  6.146%       
+Other 22.364%                         
+ 
+Moves                                 
+Steam Eruption 99.912%                
+Earth Power 96.511%                   
+Flamethrower 85.781%                  
+Sludge Bomb 44.578%                   
+Sludge Wave 43.202%                   
+Toxic 12.880%                         
+Other 17.137%                         
+ 
+Teammates                             
+Landorus-Therian 57.536%              
+Zapdos 44.640%                        
+Melmetal 44.033%                      
+Weavile 38.082%                       
+Kartana 35.409%                       
+Corviknight 15.737%                   
+Tornadus-Therian 14.995%              
+Ninetales-Alola 14.654%               
+Garchomp 12.836%                      
+Arctozolt 12.672%                     
+Dragapult 10.877%                     
+ 
+Checks and Counters                   
+
+Pokemon
+Drampa                                
+ 
+Raw count: 676                        
+Avg. weight: 0.40866413078            
+Viability Ceiling: 85                 
+ 
+Abilities                             
+Berserk 99.984%                       
+Cloud Nine  0.009%                    
+Sap Sipper  0.008%                    
+ 
+Items                                 
+Chople Berry 81.852%                  
+Expert Belt 18.130%                   
+Other  0.018%                         
+ 
+Spreads                               
+Quiet:248/0/8/252/0/0 99.981%         
+Other  0.019%                         
+ 
+Moves                                 
+Roost 99.991%                         
+Thunderbolt 99.982%                   
+Ice Beam 99.981%                      
+Focus Blast 99.981%                   
+Other  0.064%                         
+ 
+Teammates                             
+Hatterene 90.360%                     
+Marowak-Alola 90.360%                 
+Ferrothorn 90.358%                    
+Garchomp 90.358%                      
+Slowbro 90.358%                       
+ 
+Checks and Counters                   
+
+Pokemon
+Magnezone                             
+ 
+Raw count: 7587                       
+Avg. weight: 0.0353425473072          
+Viability Ceiling: 92                 
+ 
+Abilities                             
+Magnet Pull 78.136%                   
+Sturdy 20.745%                        
+Analytic  1.119%                      
+ 
+Items                                 
+Leftovers 28.837%                     
+Assault Vest 25.445%                  
+Choice Specs 23.590%                  
+Rocky Helmet 12.455%                  
+Chople Berry  3.076%                  
+Air Balloon  1.949%                   
+Other  4.649%                         
+ 
+Spreads                               
+Modest:248/0/0/156/0/104 24.962%      
+Modest:0/0/4/252/0/252 20.760%        
+Bold:0/0/252/80/0/176  8.646%         
+Timid:0/0/252/4/0/252  5.364%         
+Bold:96/0/252/76/0/84  5.035%         
+Bold:160/0/252/0/0/96  3.779%         
+Other 31.455%                         
+ 
+Moves                                 
+Flash Cannon 59.711%                  
+Thunderbolt 59.341%                   
+Volt Switch 52.284%                   
+Body Press 50.521%                    
+Iron Defense 49.218%                  
+Discharge 37.931%                     
+Mirror Coat 25.747%                   
+Substitute 22.943%                    
+Tri Attack 20.540%                    
+Toxic 10.146%                         
+Other 11.619%                         
+ 
+Teammates                             
+Kartana 48.312%                       
+Dragapult 32.889%                     
+Rillaboom 31.735%                     
+Ninetales-Alola 28.130%               
+Landorus-Therian 26.782%              
+Heatran 25.490%                       
+Zapdos 23.965%                        
+Seismitoad 22.591%                    
+Garchomp 21.619%                      
+Regieleki 17.301%                     
+Tapu Fini 15.752%                     
+ 
+Checks and Counters                   
+
+Pokemon
+Excadrill                             
+ 
+Raw count: 15631                      
+Avg. weight: 0.0157689085485          
+Viability Ceiling: 89                 
+ 
+Abilities                             
+Sand Rush 83.022%                     
+Mold Breaker 16.510%                  
+Sand Force  0.468%                    
+ 
+Items                                 
+Leftovers 51.435%                     
+Choice Band 23.437%                   
+Focus Sash 12.029%                    
+Soft Sand  6.353%                     
+Life Orb  2.703%                      
+Other  4.043%                         
+ 
+Spreads                               
+Adamant:0/252/0/0/4/252 61.927%       
+Jolly:0/252/0/0/4/252 17.874%         
+Jolly:0/252/4/0/0/252  5.409%         
+Adamant:0/252/4/0/0/252  3.195%       
+Jolly:4/252/0/0/0/252  2.298%         
+Careful:248/0/8/0/252/0  1.453%       
+Other  7.844%                         
+ 
+Moves                                 
+Earthquake 99.830%                    
+Rapid Spin 97.315%                    
+Iron Head 88.386%                     
+Swords Dance 62.105%                  
+Rock Slide 25.959%                    
+Stealth Rock 13.250%                  
+Other 13.155%                         
+ 
+Teammates                             
+Tyranitar 80.562%                     
+Ferrothorn 58.333%                    
+Clefable 43.924%                      
+Rotom-Wash 36.417%                    
+Zapdos 32.453%                        
+Dragapult 31.310%                     
+Urshifu-Rapid-Strike 23.452%          
+Tapu Lele 21.856%                     
+Tornadus-Therian 15.214%              
+Dracozolt 12.408%                     
+Volcarona  8.694%                     
+ 
+Checks and Counters                   
+
+Pokemon
+Barraskewda                           
+ 
+Raw count: 13875                      
+Avg. weight: 0.0175405433851          
+Viability Ceiling: 88                 
+ 
+Abilities                             
+Swift Swim 99.899%                    
+Propeller Tail  0.101%                
+ 
+Items                                 
+Choice Band 96.798%                   
+Other  3.202%                         
+ 
+Spreads                               
+Adamant:0/252/0/0/4/252 48.032%       
+Adamant:0/252/4/0/0/252 41.950%       
+Jolly:0/252/0/0/4/252  7.158%         
+Other  2.860%                         
+ 
+Moves                                 
+Flip Turn 97.333%                     
+Liquidation 96.958%                   
+Close Combat 74.195%                  
+Aqua Jet 38.234%                      
+Psychic Fangs 36.217%                 
+Crunch 29.459%                        
+Ice Fang 22.865%                      
+Other  4.741%                         
+ 
+Teammates                             
+Pelipper 94.650%                      
+Ferrothorn 82.369%                    
+Seismitoad 42.497%                    
+Tapu Lele 38.084%                     
+Zapdos 32.587%                        
+Porygon-Z 28.598%                     
+Garchomp 28.562%                      
+Crawdaunt 19.031%                     
+Tornadus-Therian 18.525%              
+Kingdra 14.249%                       
+Volcanion 12.707%                     
+ 
+Checks and Counters                   
+
+Pokemon
+Hippowdon                             
+ 
+Raw count: 5966                       
+Avg. weight: 0.0420718341823          
+Viability Ceiling: 86                 
+ 
+Abilities                             
+Sand Stream 99.276%                   
+Sand Force  0.724%                    
+ 
+Items                                 
+Leftovers 88.730%                     
+Smooth Rock 10.319%                   
+Other  0.951%                         
+ 
+Spreads                               
+Careful:252/4/0/0/252/0 64.222%       
+Impish:252/4/252/0/0/0 10.424%        
+Careful:252/8/0/0/248/0  9.266%       
+Careful:252/0/4/0/252/0  7.717%       
+Careful:248/8/0/0/252/0  2.652%       
+Careful:248/0/8/0/252/0  1.888%       
+Other  3.831%                         
+ 
+Moves                                 
+Slack Off 99.709%                     
+Stealth Rock 99.684%                  
+Earthquake 99.533%                    
+Toxic 86.701%                         
+Other 14.371%                         
+ 
+Teammates                             
+Corviknight 71.422%                   
+Toxapex 60.506%                       
+Tornadus-Therian 57.811%              
+Blissey 36.678%                       
+Heatran 27.728%                       
+Kartana 26.844%                       
+Quagsire 21.752%                      
+Clefable 14.478%                      
+Buzzwole 11.784%                      
+Ferrothorn 10.884%                    
+Slowking-Galar 10.341%                
+ 
+Checks and Counters                   
+
+Pokemon
+Celesteela                            
+ 
+Raw count: 6121                       
+Avg. weight: 0.0379160404287          
+Viability Ceiling: 89                 
+ 
+Abilities                             
+Beast Boost 100.000%                  
+ 
+Items                                 
+Power Herb 93.336%                    
+Leftovers  4.535%                     
+Other  2.129%                         
+ 
+Spreads                               
+Modest:0/0/0/252/4/252 74.170%        
+Modest:4/0/0/252/0/252  6.348%        
+Modest:0/0/4/252/0/252  6.129%        
+Timid:0/0/4/252/0/252  3.994%         
+Relaxed:252/4/252/0/0/0  1.606%       
+Relaxed:252/0/252/0/4/0  1.261%       
+Other  6.493%                         
+ 
+Moves                                 
+Autotomize 94.314%                    
+Meteor Beam 93.507%                   
+Air Slash 91.913%                     
+Flamethrower 84.603%                  
+Fire Blast 14.324%                    
+Leech Seed  4.921%                    
+Other 16.418%                         
+ 
+Teammates                             
+Garchomp 72.171%                      
+Weavile 67.211%                       
+Mew 56.994%                           
+Blacephalon 48.314%                   
+Azumarill 38.170%                     
+Dragonite 20.148%                     
+Dragapult 17.496%                     
+Heatran 15.913%                       
+Nihilego 13.576%                      
+Rillaboom 12.397%                     
+Kartana 11.764%                       
+ 
+Checks and Counters                   
+
+Pokemon
+Blaziken                              
+ 
+Raw count: 14194                      
+Avg. weight: 0.0144353600193          
+Viability Ceiling: 92                 
+ 
+Abilities                             
+Speed Boost 99.951%                   
+Blaze  0.049%                         
+ 
+Items                                 
+Leftovers 55.799%                     
+Air Balloon 18.161%                   
+Life Orb 15.387%                      
+Focus Sash  6.758%                    
+Other  3.894%                         
+ 
+Spreads                               
+Adamant:0/252/0/0/4/252 51.635%       
+Adamant:144/252/0/0/0/112 13.190%     
+Jolly:0/252/0/0/4/252 12.307%         
+Adamant:4/252/0/0/0/252  6.069%       
+Adamant:0/252/4/0/0/252  6.021%       
+Adamant:120/252/0/0/0/136  3.857%     
+Other  6.919%                         
+ 
+Moves                                 
+Swords Dance 97.177%                  
+Close Combat 95.261%                  
+Flare Blitz 84.762%                   
+Protect 48.598%                       
+Thunder Punch 30.462%                 
+Earthquake 11.849%                    
+Blaze Kick 10.169%                    
+Knock Off  6.188%                     
+Other 15.534%                         
+ 
+Teammates                             
+Rillaboom 43.211%                     
+Garchomp 41.629%                      
+Melmetal 29.629%                      
+Dragapult 28.728%                     
+Slowbro 27.650%                       
+Zapdos 17.174%                        
+Tapu Lele 16.784%                     
+Landorus-Therian 14.549%              
+Tornadus-Therian 13.680%              
+Swampert 12.834%                      
+Heatran 11.305%                       
+ 
+Checks and Counters                   
+
+Pokemon
+Seismitoad                            
+ 
+Raw count: 6179                       
+Avg. weight: 0.0368246520942          
+Viability Ceiling: 86                 
+ 
+Abilities                             
+Swift Swim 61.189%                    
+Water Absorb 38.805%                  
+Poison Touch  0.006%                  
+ 
+Items                                 
+Life Orb 44.172%                      
+Expert Belt 34.282%                   
+Leftovers 10.382%                     
+Choice Specs  6.052%                  
+Choice Band  4.308%                   
+Other  0.805%                         
+ 
+Spreads                               
+Modest:188/0/0/252/4/64 32.799%       
+Modest:0/0/0/252/4/252 32.020%        
+Timid:0/0/0/252/4/252  9.085%         
+Timid:32/0/0/252/0/224  8.803%        
+Adamant:100/252/0/0/4/152  4.269%     
+Mild:0/4/0/252/0/252  4.082%          
+Other  8.942%                         
+ 
+Moves                                 
+Earth Power 92.810%                   
+Stealth Rock 69.176%                  
+Sludge Wave 61.856%                   
+Weather Ball 49.955%                  
+Scald 44.065%                         
+Icy Wind 18.630%                      
+Focus Blast 16.356%                   
+Knock Off  9.722%                     
+Power Whip  6.489%                    
+Earthquake  6.488%                    
+Ice Punch  6.424%                     
+Other 18.029%                         
+ 
+Teammates                             
+Pelipper 59.793%                      
+Zapdos 51.630%                        
+Barraskewda 50.204%                   
+Ferrothorn 43.671%                    
+Rillaboom 29.823%                     
+Heatran 29.807%                       
+Kartana 29.764%                       
+Magnezone 29.684%                     
+Tornadus-Therian 26.892%              
+Kingdra 20.435%                       
+Crawdaunt 17.357%                     
+ 
+Checks and Counters                   
+
+Pokemon
+Quagsire                              
+ 
+Raw count: 6460                       
+Avg. weight: 0.027714592162           
+Viability Ceiling: 90                 
+ 
+Abilities                             
+Unaware 99.949%                       
+Water Absorb  0.051%                  
+Damp  0.000%                          
+ 
+Items                                 
+Leftovers 74.394%                     
+Rocky Helmet 17.208%                  
+Heavy-Duty Boots  6.429%              
+Other  1.969%                         
+ 
+Spreads                               
+Impish:252/4/252/0/0/0 37.147%        
+Relaxed:252/0/252/0/4/0 20.078%       
+Bold:252/0/252/0/4/0 15.999%          
+Relaxed:248/0/252/0/8/0 14.489%       
+Impish:252/0/252/0/4/0  6.365%        
+Relaxed:252/0/220/0/36/0  2.148%      
+Other  3.774%                         
+ 
+Moves                                 
+Recover 99.991%                       
+Earthquake 82.253%                    
+Toxic 68.797%                         
+Scald 61.443%                         
+Protect 33.893%                       
+Haze 16.081%                          
+Stockpile 15.528%                     
+Rest 15.508%                          
+Other  6.506%                         
+ 
+Teammates                             
+Toxapex 69.661%                       
+Blissey 53.727%                       
+Corviknight 41.053%                   
+Hippowdon 25.721%                     
+Tornadus-Therian 25.691%              
+Clefable 24.443%                      
+Skarmory 23.435%                      
+Volcarona 15.636%                     
+Ninetales-Alola 14.988%               
+Mantine 14.963%                       
+Xatu 14.963%                          
+ 
+Checks and Counters                   
+
+Pokemon
+Cresselia                             
+ 
+Raw count: 6004                       
+Avg. weight: 0.0327141202127          
+Viability Ceiling: 86                 
+ 
+Abilities                             
+Levitate 100.000%                     
+ 
+Items                                 
+Rocky Helmet 35.231%                  
+Choice Scarf 20.619%                  
+Leftovers 17.707%                     
+Mental Herb 13.275%                   
+Electric Seed  6.638%                 
+Colbur Berry  6.511%                  
+Other  0.019%                         
+ 
+Spreads                               
+Relaxed:252/0/252/0/0/0 35.064%       
+Timid:252/0/0/0/40/216 20.619%        
+Calm:248/0/8/0/252/0 15.149%          
+Relaxed:252/0/252/4/0/0  6.794%       
+Timid:96/0/192/0/0/220  6.638%        
+Sassy:252/0/84/0/172/0  6.220%        
+Other  9.517%                         
+ 
+Moves                                 
+Ice Beam 90.922%                      
+Lunar Dance 77.418%                   
+Moonlight 71.229%                     
+Trick Room 56.855%                    
+Thunder Wave 20.634%                  
+Trick 20.619%                         
+Toxic 15.079%                         
+Protect 14.964%                       
+Calm Mind  7.551%                     
+Stored Power  7.389%                  
+Other 17.341%                         
+ 
+Teammates                             
+Melmetal 74.389%                      
+Hatterene 52.820%                     
+Porygon2 51.783%                      
+Marowak-Alola 48.097%                 
+Xurkitree 33.741%                     
+Clefable 31.200%                      
+Skarmory 31.040%                      
+Garchomp 19.243%                      
+Gastrodon 19.243%                     
+Toxapex 18.166%                       
+Crawdaunt 13.561%                     
+ 
+Checks and Counters                   
+
+Pokemon
+Nidoking                              
+ 
+Raw count: 10157                      
+Avg. weight: 0.018631297058           
+Viability Ceiling: 89                 
+ 
+Abilities                             
+Sheer Force 99.934%                   
+Poison Point  0.066%                  
+Rivalry  0.000%                       
+ 
+Items                                 
+Life Orb 98.658%                      
+Other  1.342%                         
+ 
+Spreads                               
+Timid:0/0/0/252/4/252 49.056%         
+Modest:0/0/0/252/4/252 42.093%        
+Timid:0/0/4/252/0/252  3.550%         
+Timid:4/0/0/252/0/252  1.452%         
+Other  3.849%                         
+ 
+Moves                                 
+Earth Power 99.484%                   
+Sludge Wave 97.861%                   
+Ice Beam 92.522%                      
+Flamethrower 88.853%                  
+Taunt  7.232%                         
+Other 14.048%                         
+ 
+Teammates                             
+Slowbro 42.828%                       
+Corviknight 40.601%                   
+Weavile 36.629%                       
+Clefable 35.479%                      
+Zapdos 30.492%                        
+Blissey 28.794%                       
+Kartana 27.212%                       
+Heatran 25.925%                       
+Urshifu-Rapid-Strike 23.924%          
+Rillaboom 22.947%                     
+Dragonite 16.291%                     
+ 
+Checks and Counters                   
+
+Pokemon
+Gastrodon                             
+ 
+Raw count: 5481                       
+Avg. weight: 0.0331657629623          
+Viability Ceiling: 89                 
+ 
+Abilities                             
+Storm Drain 86.935%                   
+Sticky Hold 12.997%                   
+Sand Force  0.068%                    
+ 
+Items                                 
+Leftovers 86.174%                     
+Heavy-Duty Boots 13.212%              
+Other  0.615%                         
+ 
+Spreads                               
+Calm:252/0/40/0/212/4 22.079%         
+Sassy:252/0/4/0/252/0 15.376%         
+Careful:252/0/76/0/180/0 13.833%      
+Calm:252/0/4/0/252/0  8.651%          
+Careful:252/0/124/0/120/12  7.326%    
+Careful:252/0/52/0/192/12  6.934%     
+Other 25.801%                         
+ 
+Moves                                 
+Recover 99.807%                       
+Scald 89.871%                         
+Earth Power 58.152%                   
+Toxic 51.564%                         
+Earthquake 39.527%                    
+Protect 35.408%                       
+Clear Smog 11.733%                    
+Other 13.937%                         
+ 
+Teammates                             
+Clefable 78.712%                      
+Corviknight 47.006%                   
+Toxapex 45.787%                       
+Blissey 34.263%                       
+Skarmory 30.934%                      
+Slowking-Galar 29.688%                
+Melmetal 23.950%                      
+Garchomp 21.497%                      
+Cresselia 20.606%                     
+Tornadus-Therian 16.048%              
+Ferrothorn 11.144%                    
+ 
+Checks and Counters                   
+
+Pokemon
+Aegislash                             
+ 
+Raw count: 10945                      
+Avg. weight: 0.0180542936514          
+Viability Ceiling: 92                 
+ 
+Abilities                             
+Stance Change 100.000%                
+ 
+Items                                 
+Spell Tag 55.961%                     
+Choice Specs 24.985%                  
+Weakness Policy  8.399%               
+Leftovers  6.174%                     
+Other  4.481%                         
+ 
+Spreads                               
+Rash:0/4/0/252/0/252 49.522%          
+Modest:240/0/0/252/0/16  7.679%       
+Quiet:252/4/0/252/0/0  6.205%         
+Hasty:0/64/0/252/0/192  4.385%        
+Quiet:252/0/0/252/4/0  4.319%         
+Adamant:236/252/0/0/0/20  4.150%      
+Other 23.739%                         
+ 
+Moves                                 
+Shadow Sneak 89.085%                  
+Shadow Ball 88.322%                   
+Flash Cannon 81.404%                  
+Close Combat 76.421%                  
+King's Shield 17.470%                 
+Steel Beam 12.200%                    
+Swords Dance  9.722%                  
+Iron Head  8.311%                     
+Other 17.066%                         
+ 
+Teammates                             
+Landorus-Therian 70.935%              
+Urshifu-Rapid-Strike 55.560%          
+Dragonite 51.120%                     
+Volcarona 49.803%                     
+Tangrowth 47.860%                     
+Dragapult 18.898%                     
+Kartana 13.643%                       
+Slowbro 11.416%                       
+Crawdaunt 10.796%                     
+Zapdos 10.609%                        
+Moltres-Galar  8.810%                 
+ 
+Checks and Counters                   
+
+Pokemon
+Skarmory                              
+ 
+Raw count: 7644                       
+Avg. weight: 0.0225599595859          
+Viability Ceiling: 88                 
+ 
+Abilities                             
+Sturdy 98.725%                        
+Keen Eye  1.136%                      
+Weak Armor  0.140%                    
+ 
+Items                                 
+Rocky Helmet 85.365%                  
+Leftovers 10.524%                     
+Other  4.111%                         
+ 
+Spreads                               
+Bold:252/0/252/0/4/0 41.112%          
+Impish:248/0/252/0/8/0 17.750%        
+Bold:248/0/252/0/8/0  8.410%          
+Jolly:72/0/252/0/0/184  7.437%        
+Impish:252/0/252/0/4/0  7.151%        
+Impish:236/0/252/0/0/20  3.992%       
+Other 14.148%                         
+ 
+Moves                                 
+Roost 97.621%                         
+Spikes 89.742%                        
+Body Press 81.038%                    
+Toxic 42.468%                         
+Iron Defense 18.399%                  
+Whirlwind 17.739%                     
+Defog 16.499%                         
+Stealth Rock 15.561%                  
+Iron Head  7.690%                     
+Other 13.243%                         
+ 
+Teammates                             
+Clefable 59.970%                      
+Toxapex 41.111%                       
+Garchomp 35.413%                      
+Cresselia 33.527%                     
+Gastrodon 31.203%                     
+Blissey 27.243%                       
+Quagsire 27.109%                      
+Melmetal 21.623%                      
+Ditto 18.149%                         
+Shedinja 15.586%                      
+Zapdos 15.055%                        
+ 
+Checks and Counters                   
+
+Pokemon
+Zeraora                               
+ 
+Raw count: 17379                      
+Avg. weight: 0.0104646797686          
+Viability Ceiling: 90                 
+ 
+Abilities                             
+Volt Absorb 100.000%                  
+ 
+Items                                 
+Heavy-Duty Boots 66.394%              
+Life Orb 11.105%                      
+Leftovers 10.861%                     
+Choice Band  6.337%                   
+Expert Belt  1.960%                   
+Other  3.342%                         
+ 
+Spreads                               
+Jolly:0/252/0/0/4/252 58.852%         
+Jolly:0/252/4/0/0/252 13.549%         
+Naive:0/4/0/252/0/252  8.113%         
+Jolly:0/240/0/0/16/252  6.134%        
+Hasty:0/252/0/4/0/252  3.599%         
+Hasty:0/252/0/0/0/252  2.283%         
+Other  7.471%                         
+ 
+Moves                                 
+Plasma Fists 91.316%                  
+Close Combat 88.828%                  
+Knock Off 81.547%                     
+Bulk Up 43.155%                       
+Volt Switch 29.480%                   
+Grass Knot  9.909%                    
+Blaze Kick  9.688%                    
+Play Rough  9.345%                    
+Thunderbolt  8.364%                   
+Drain Punch  7.268%                   
+Taunt  6.352%                         
+Other 14.748%                         
+ 
+Teammates                             
+Landorus-Therian 36.217%              
+Heatran 35.950%                       
+Rillaboom 34.121%                     
+Blacephalon 26.542%                   
+Tapu Fini 23.380%                     
+Kartana 21.332%                       
+Slowbro 19.514%                       
+Corviknight 19.064%                   
+Nidoking 12.474%                      
+Weavile 11.712%                       
+Mew 11.520%                           
+ 
+Checks and Counters                   
+
+Pokemon
+Slowking                              
+ 
+Raw count: 5279                       
+Avg. weight: 0.0272873632671          
+Viability Ceiling: 89                 
+ 
+Abilities                             
+Regenerator 99.975%                   
+Oblivious  0.025%                     
+Own Tempo  0.000%                     
+ 
+Items                                 
+Heavy-Duty Boots 85.166%              
+Assault Vest  8.671%                  
+Leftovers  4.365%                     
+Other  1.797%                         
+ 
+Spreads                               
+Sassy:252/0/4/0/252/0 49.852%         
+Sassy:252/0/48/0/208/0 13.495%        
+Quiet:252/0/4/252/0/0  8.564%         
+Calm:252/0/4/0/252/0  7.212%          
+Relaxed:232/0/96/0/180/0  2.942%      
+Relaxed:248/0/252/0/8/0  2.685%       
+Other 15.250%                         
+ 
+Moves                                 
+Scald 99.765%                         
+Future Sight 99.496%                  
+Teleport 90.779%                      
+Slack Off 87.213%                     
+Flamethrower 11.999%                  
+Other 10.748%                         
+ 
+Teammates                             
+Landorus-Therian 70.309%              
+Buzzwole 57.898%                      
+Tyranitar 37.742%                     
+Zapdos 35.063%                        
+Melmetal 34.872%                      
+Corviknight 24.434%                   
+Heatran 23.715%                       
+Clefable 21.782%                      
+Weavile 18.837%                       
+Blacephalon 16.172%                   
+Zapdos-Galar 11.431%                  
+ 
+Checks and Counters                   
+
+Pokemon
+Zapdos-Galar                          
+ 
+Raw count: 6917                       
+Avg. weight: 0.0211359986301          
+Viability Ceiling: 83                 
+ 
+Abilities                             
+Defiant 100.000%                      
+ 
+Items                                 
+Choice Scarf 49.186%                  
+Choice Band 42.941%                   
+Life Orb  2.590%                      
+Protective Pads  1.934%               
+Other  3.348%                         
+ 
+Spreads                               
+Jolly:0/252/0/0/4/252 92.846%         
+Adamant:0/252/0/0/4/252  3.225%       
+Other  3.929%                         
+ 
+Moves                                 
+Brave Bird 97.865%                    
+Close Combat 96.714%                  
+U-turn 93.320%                        
+Thunderous Kick 76.664%               
+Stomping Tantrum 14.111%              
+Throat Chop  4.996%                   
+Other 16.330%                         
+ 
+Teammates                             
+Landorus-Therian 67.711%              
+Ninetales-Alola 44.758%               
+Latias 43.751%                        
+Arctozolt 39.582%                     
+Klefki 39.578%                        
+Kartana 23.113%                       
+Weavile 19.233%                       
+Garchomp 15.891%                      
+Tapu Fini 11.883%                     
+Tapu Koko 11.826%                     
+Slowking 11.663%                      
+ 
+Checks and Counters                   
+
+Pokemon
+Tangrowth                             
+ 
+Raw count: 3749                       
+Avg. weight: 0.0341831231077          
+Viability Ceiling: 90                 
+ 
+Abilities                             
+Regenerator 99.990%                   
+Chlorophyll  0.010%                   
+Leaf Guard  0.000%                    
+ 
+Items                                 
+Assault Vest 64.437%                  
+Rocky Helmet 25.631%                  
+Nothing  6.892%                       
+Other  3.040%                         
+ 
+Spreads                               
+Sassy:252/0/4/0/252/0 63.402%         
+Relaxed:252/0/252/0/4/0 15.240%       
+Relaxed:248/0/252/0/8/0 12.107%       
+Modest:0/0/0/252/4/252  2.563%        
+Bold:252/0/252/4/0/0  1.913%          
+Other  4.776%                         
+ 
+Moves                                 
+Focus Blast 96.332%                   
+Knock Off 95.409%                     
+Giga Drain 94.809%                    
+Earthquake 65.760%                    
+Sleep Powder 13.767%                  
+Toxic 13.075%                         
+Sludge Bomb  5.591%                   
+Other 15.258%                         
+ 
+Teammates                             
+Landorus-Therian 65.428%              
+Urshifu-Rapid-Strike 63.603%          
+Volcarona 61.674%                     
+Dragonite 61.263%                     
+Aegislash 61.258%                     
+Clefable 20.585%                      
+Slowking-Galar 16.810%                
+Tyranitar 15.053%                     
+Excadrill 12.785%                     
+Rotom-Wash 12.382%                    
+Toxapex 11.013%                       
+ 
+Checks and Counters                   
+
+Pokemon
+Mandibuzz                             
+ 
+Raw count: 3805                       
+Avg. weight: 0.0412916397685          
+Viability Ceiling: 89                 
+ 
+Abilities                             
+Overcoat 99.635%                      
+Weak Armor  0.276%                    
+Big Pecks  0.089%                     
+ 
+Items                                 
+Heavy-Duty Boots 91.390%              
+Rocky Helmet  7.028%                  
+Other  1.583%                         
+ 
+Spreads                               
+Impish:248/0/252/0/8/0 37.360%        
+Impish:248/0/164/0/0/96 17.061%       
+Impish:252/0/168/0/88/0  8.952%       
+Impish:248/0/92/0/152/16  6.278%      
+Bold:248/0/236/0/8/16  5.340%         
+Relaxed:248/0/252/0/8/0  4.237%       
+Other 20.772%                         
+ 
+Moves                                 
+Roost 99.632%                         
+Foul Play 99.469%                     
+Defog 98.990%                         
+U-turn 73.939%                        
+Knock Off 10.053%                     
+Other 17.917%                         
+ 
+Teammates                             
+Tapu Lele 28.993%                     
+Magnezone 25.865%                     
+Toxapex 22.425%                       
+Ferrothorn 21.945%                    
+Slowking-Galar 21.842%                
+Dragapult 20.386%                     
+Ninetales-Alola 19.673%               
+Swampert 19.603%                      
+Arctozolt 19.580%                     
+Volcanion 17.178%                     
+Landorus-Therian 16.908%              
+ 
+Checks and Counters                   
+
+Pokemon
+Hawlucha                              
+ 
+Raw count: 7058                       
+Avg. weight: 0.0193650371672          
+Viability Ceiling: 82                 
+ 
+Abilities                             
+Unburden 99.729%                      
+Limber  0.136%                        
+Mold Breaker  0.135%                  
+ 
+Items                                 
+Electric Seed 43.806%                 
+Grassy Seed 24.977%                   
+Psychic Seed 15.064%                  
+Misty Seed  9.863%                    
+Power Herb  3.202%                    
+Other  3.087%                         
+ 
+Spreads                               
+Adamant:0/252/0/0/4/252 62.662%       
+Adamant:132/252/0/0/0/124  9.851%     
+Adamant:104/252/0/0/56/96  5.498%     
+Adamant:100/252/0/0/144/12  4.628%    
+Jolly:4/252/0/0/0/252  3.352%         
+Adamant:0/252/0/0/132/124  3.078%     
+Other 10.931%                         
+ 
+Moves                                 
+Acrobatics 99.946%                    
+Swords Dance 98.979%                  
+Close Combat 93.768%                  
+Stone Edge 69.703%                    
+Substitute 15.489%                    
+Taunt  7.953%                         
+Other 14.162%                         
+ 
+Teammates                             
+Rillaboom 69.485%                     
+Landorus-Therian 59.271%              
+Heatran 49.116%                       
+Tapu Koko 43.083%                     
+Dragapult 43.052%                     
+Tapu Lele 22.871%                     
+Kartana 14.377%                       
+Ninetales-Alola 13.340%               
+Volcarona 12.921%                     
+Swampert 12.772%                      
+Magnezone 12.659%                     
+ 
+Checks and Counters                   
+
+Pokemon
+Porygon2                              
+ 
+Raw count: 7197                       
+Avg. weight: 0.0198764028531          
+Viability Ceiling: 84                 
+ 
+Abilities                             
+Trace 82.610%                         
+Download 14.987%                      
+Analytic  2.403%                      
+ 
+Items                                 
+Eviolite 99.800%                      
+Other  0.200%                         
+ 
+Spreads                               
+Sassy:252/0/64/0/192/0 63.814%        
+Sassy:252/0/4/0/252/0  7.524%         
+Calm:252/0/164/0/92/0  6.774%         
+Sassy:252/0/0/4/252/0  5.115%         
+Sassy:248/0/132/0/128/0  4.865%       
+Quiet:252/0/0/252/4/0  2.404%         
+Other  9.504%                         
+ 
+Moves                                 
+Teleport 98.743%                      
+Trick Room 91.652%                    
+Recover 85.492%                       
+Magic Coat 64.446%                    
+Ice Beam 27.079%                      
+Thunderbolt 13.529%                   
+Other 19.059%                         
+ 
+Teammates                             
+Hatterene 89.252%                     
+Melmetal 88.049%                      
+Cresselia 80.239%                     
+Marowak-Alola 77.827%                 
+Xurkitree 52.282%                     
+Crawdaunt 19.861%                     
+Conkeldurr 16.971%                    
+Slowbro 13.327%                       
+Torkoal  9.852%                       
+Garchomp  7.627%                      
+Tentacruel  6.774%                    
+ 
+Checks and Counters                   
+
+Pokemon
+Latios                                
+ 
+Raw count: 3894                       
+Avg. weight: 0.0347986447425          
+Viability Ceiling: 85                 
+ 
+Abilities                             
+Levitate 100.000%                     
+ 
+Items                                 
+Choice Specs 67.536%                  
+Weakness Policy 20.689%               
+Choice Scarf  7.199%                  
+Other  4.575%                         
+ 
+Spreads                               
+Timid:0/0/0/252/4/252 73.709%         
+Bold:252/0/252/4/0/0 19.429%          
+Timid:4/0/0/252/0/252  2.858%         
+Other  4.004%                         
+ 
+Moves                                 
+Draco Meteor 75.653%                  
+Psychic 71.843%                       
+Trick 69.756%                         
+Defog 63.212%                         
+Aura Sphere 25.826%                   
+Calm Mind 21.708%                     
+Stored Power 20.689%                  
+Roost 18.550%                         
+Mystical Fire 12.349%                 
+Psyshock  6.425%                      
+Other 13.989%                         
+ 
+Teammates                             
+Landorus-Therian 84.987%              
+Buzzwole 64.753%                      
+Blacephalon 61.851%                   
+Blissey 60.504%                       
+Slowbro 60.031%                       
+Ninetales-Alola 18.643%               
+Latias 18.572%                        
+Scizor 18.546%                        
+Arctozolt 12.477%                     
+Corviknight  6.946%                   
+Azumarill  6.061%                     
+ 
+Checks and Counters                   
+
+Pokemon
+Cloyster                              
+ 
+Raw count: 9671                       
+Avg. weight: 0.0128152226768          
+Viability Ceiling: 89                 
+ 
+Abilities                             
+Skill Link 99.853%                    
+Shell Armor  0.145%                   
+Overcoat  0.002%                      
+ 
+Items                                 
+Focus Sash 37.705%                    
+Heavy-Duty Boots 31.727%              
+Life Orb 27.290%                      
+Other  3.278%                         
+ 
+Spreads                               
+Adamant:0/252/0/0/4/252 21.835%       
+Jolly:0/252/0/4/0/252 18.176%         
+Naive:0/252/4/0/0/252 13.636%         
+Jolly:0/252/4/0/0/252 12.862%         
+Naughty:0/252/0/4/0/252 11.322%       
+Jolly:0/252/0/0/4/252  8.091%         
+Other 14.078%                         
+ 
+Moves                                 
+Icicle Spear 99.940%                  
+Shell Smash 99.926%                   
+Rock Blast 70.777%                    
+Ice Shard 30.287%                     
+Explosion 25.747%                     
+Hydro Pump 25.745%                    
+Rapid Spin 19.446%                    
+Surf 18.455%                          
+Other  9.676%                         
+ 
+Teammates                             
+Garchomp 55.780%                      
+Ninetales-Alola 53.986%               
+Volcarona 43.320%                     
+Heatran 36.435%                       
+Dragapult 29.481%                     
+Mew 27.801%                           
+Weavile 25.216%                       
+Polteageist 25.015%                   
+Celesteela 20.847%                    
+Dragonite 16.485%                     
+Rillaboom 15.445%                     
+ 
+Checks and Counters                   
+
+Pokemon
+Bisharp                               
+ 
+Raw count: 10875                      
+Avg. weight: 0.0116759877579          
+Viability Ceiling: 83                 
+ 
+Abilities                             
+Defiant 99.667%                       
+Inner Focus  0.332%                   
+Pressure  0.001%                      
+ 
+Items                                 
+Black Glasses 39.332%                 
+Life Orb 19.664%                      
+Air Balloon 11.236%                   
+Choice Band  9.668%                   
+Chople Berry  7.431%                  
+Focus Sash  7.364%                    
+Leftovers  4.153%                     
+Other  1.152%                         
+ 
+Spreads                               
+Adamant:0/252/0/0/4/252 55.433%       
+Adamant:0/252/4/0/0/252 18.434%       
+Jolly:0/252/0/0/4/252  7.626%         
+Jolly:0/252/4/0/0/252  5.362%         
+Adamant:0/252/0/0/0/252  3.848%       
+Adamant:160/252/0/0/0/96  2.025%      
+Other  7.273%                         
+ 
+Moves                                 
+Iron Head 98.152%                     
+Knock Off 96.150%                     
+Sucker Punch 92.322%                  
+Swords Dance 81.486%                  
+Beat Up  9.380%                       
+Rock Polish  7.450%                   
+Other 15.059%                         
+ 
+Teammates                             
+Landorus-Therian 52.851%              
+Volcarona 29.882%                     
+Ferrothorn 28.302%                    
+Slowbro 26.922%                       
+Tapu Koko 26.148%                     
+Victini 25.399%                       
+Dragapult 21.828%                     
+Rillaboom 17.541%                     
+Kartana 17.181%                       
+Weavile 13.599%                       
+Garchomp 13.115%                      
+ 
+Checks and Counters                   
+
+Pokemon
+Regieleki                             
+ 
+Raw count: 12869                      
+Avg. weight: 0.0101311197327          
+Viability Ceiling: 89                 
+ 
+Abilities                             
+Transistor 100.000%                   
+ 
+Items                                 
+Choice Specs 54.403%                  
+Heavy-Duty Boots 38.167%              
+Magnet  3.627%                        
+Other  3.802%                         
+ 
+Spreads                               
+Timid:0/0/0/252/4/252 73.996%         
+Modest:4/0/0/252/0/252  3.478%        
+Timid:80/0/0/252/0/176  2.708%        
+Hasty:0/4/0/252/0/252  2.347%         
+Timid:64/0/16/252/0/176  2.181%       
+Modest:0/0/0/252/4/252  2.165%        
+Other 13.125%                         
+ 
+Moves                                 
+Volt Switch 97.071%                   
+Rapid Spin 88.650%                    
+Ancient Power 77.211%                 
+Thunderbolt 61.094%                   
+Electro Ball 36.429%                  
+Rising Voltage 13.556%                
+Extreme Speed  6.602%                 
+Other 19.387%                         
+ 
+Teammates                             
+Garchomp 40.717%                      
+Dragapult 40.473%                     
+Landorus-Therian 39.968%              
+Kartana 39.253%                       
+Ninetales-Alola 38.179%               
+Magnezone 37.070%                     
+Weavile 27.060%                       
+Ferrothorn 26.053%                    
+Slowbro 22.725%                       
+Blissey 14.560%                       
+Tapu Koko  9.274%                     
+ 
+Checks and Counters                   
+
+Pokemon
+Moltres-Galar                         
+ 
+Raw count: 4958                       
+Avg. weight: 0.0237849095311          
+Viability Ceiling: 92                 
+ 
+Abilities                             
+Berserk 100.000%                      
+ 
+Items                                 
+Chesto Berry 40.696%                  
+Heavy-Duty Boots 37.078%              
+Weakness Policy 18.707%               
+Other  3.519%                         
+ 
+Spreads                               
+Modest:0/0/0/252/4/252 29.337%        
+Modest:64/0/0/252/4/188 25.780%       
+Modest:68/0/0/252/0/188 24.913%       
+Modest:64/0/4/252/0/188  4.216%       
+Modest:144/0/12/252/0/100  3.945%     
+Modest:64/0/0/252/8/184  2.378%       
+Other  9.431%                         
+ 
+Moves                                 
+Fiery Wrath 99.983%                   
+Nasty Plot 98.165%                    
+Agility 95.026%                       
+Hurricane 53.801%                     
+Rest 41.368%                          
+Other 11.657%                         
+ 
+Teammates                             
+Landorus-Therian 60.174%              
+Dragapult 55.730%                     
+Melmetal 32.327%                      
+Weavile 31.392%                       
+Heatran 30.982%                       
+Dragonite 26.069%                     
+Garchomp 23.601%                      
+Urshifu-Rapid-Strike 18.224%          
+Tapu Lele 15.918%                     
+Kartana 15.282%                       
+Tapu Bulu 14.040%                     
+ 
+Checks and Counters                   
+
+Pokemon
+Xurkitree                             
+ 
+Raw count: 3374                       
+Avg. weight: 0.0352986390016          
+Viability Ceiling: 86                 
+ 
+Abilities                             
+Beast Boost 100.000%                  
+ 
+Items                                 
+Iron Ball 62.937%                     
+Wise Glasses 22.287%                  
+Choice Scarf 13.873%                  
+Other  0.903%                         
+ 
+Spreads                               
+Quiet:252/0/0/252/4/0 62.937%         
+Modest:0/0/0/252/4/252 22.308%        
+Timid:0/0/0/252/4/252 10.189%         
+Other  4.567%                         
+ 
+Moves                                 
+Energy Ball 99.995%                   
+Dazzling Gleam 99.995%                
+Volt Switch 99.098%                   
+Thunderbolt 95.588%                   
+Other  5.324%                         
+ 
+Teammates                             
+Melmetal 83.071%                      
+Hatterene 60.761%                     
+Porygon2 60.761%                      
+Cresselia 60.761%                     
+Marowak-Alola 60.761%                 
+Rillaboom 32.466%                     
+Landorus-Therian 32.456%              
+Tornadus-Therian 22.306%              
+Slowbro 22.285%                       
+Ditto 10.171%                         
+Volcarona  5.332%                     
+ 
+Checks and Counters                   
+
+Pokemon
+Swampert                              
+ 
+Raw count: 7844                       
+Avg. weight: 0.0155610050108          
+Viability Ceiling: 83                 
+ 
+Abilities                             
+Torrent 56.409%                       
+Damp 43.591%                          
+ 
+Items                                 
+Leftovers 94.897%                     
+Assault Vest  1.192%                  
+Other  3.910%                         
+ 
+Spreads                               
+Careful:252/0/36/0/220/0 27.151%      
+Sassy:252/4/0/0/252/0 25.771%         
+Sassy:252/0/4/0/252/0 12.360%         
+Sassy:240/0/132/0/136/0  9.570%       
+Careful:252/4/0/0/252/0  6.774%       
+Modest:252/0/0/252/4/0  3.903%        
+Other 14.471%                         
+ 
+Moves                                 
+Flip Turn 94.427%                     
+Stealth Rock 92.248%                  
+Earthquake 54.005%                    
+Toxic 41.367%                         
+High Horsepower 41.081%               
+Yawn 38.688%                          
+Protect  9.254%                       
+Ice Beam  5.065%                      
+Hail  4.741%                          
+Other 19.125%                         
+ 
+Teammates                             
+Rillaboom 43.494%                     
+Ninetales-Alola 35.153%               
+Zapdos 27.065%                        
+Arctozolt 25.563%                     
+Dragapult 25.504%                     
+Melmetal 25.041%                      
+Blaziken 24.982%                      
+Magnezone 24.809%                     
+Mandibuzz 24.676%                     
+Volcanion 20.706%                     
+Volcarona 17.549%                     
+ 
+Checks and Counters                   
+
+Pokemon
+Klefki                                
+ 
+Raw count: 2219                       
+Avg. weight: 0.040263294273           
+Viability Ceiling: 85                 
+ 
+Abilities                             
+Prankster 100.000%                    
+Magician  0.000%                      
+ 
+Items                                 
+Light Clay 90.915%                    
+Ring Target  3.877%                   
+Leftovers  3.086%                     
+Other  2.122%                         
+ 
+Spreads                               
+Impish:248/0/216/0/0/44 90.464%       
+Bold:252/0/248/0/4/4  2.802%          
+Bold:252/0/252/4/0/0  2.386%          
+Other  4.348%                         
+ 
+Moves                                 
+Spikes 99.300%                        
+Reflect 93.821%                       
+Light Screen 91.013%                  
+Steel Beam 90.491%                    
+Thunder Wave  9.417%                  
+Other 15.957%                         
+ 
+Teammates                             
+Landorus-Therian 74.201%              
+Ninetales-Alola 70.420%               
+Zapdos-Galar 70.410%                  
+Latias 70.410%                        
+Arctozolt 70.410%                     
+Pelipper 18.726%                      
+Seismitoad 18.720%                    
+Tornadus-Therian 15.923%              
+Kingdra 15.919%                       
+Scizor 13.401%                        
+Dhelmise  4.301%                      
+ 
+Checks and Counters                   
+
+Pokemon
+Krookodile                            
+ 
+Raw count: 3939                       
+Avg. weight: 0.0198917243611          
+Viability Ceiling: 84                 
+ 
+Abilities                             
+Moxie 83.283%                         
+Intimidate 16.713%                    
+Anger Point  0.005%                   
+ 
+Items                                 
+Choice Scarf 76.691%                  
+Soft Sand 11.402%                     
+Focus Sash  6.930%                    
+Other  4.977%                         
+ 
+Spreads                               
+Adamant:0/252/0/0/0/248 66.603%       
+Jolly:0/252/0/0/4/252 29.981%         
+Other  3.416%                         
+ 
+Moves                                 
+Earthquake 99.742%                    
+Knock Off 93.545%                     
+Stone Edge 77.347%                    
+Toxic 53.880%                         
+Stealth Rock 39.962%                  
+Taunt 16.094%                         
+Other 19.430%                         
+ 
+Teammates                             
+Toxapex 83.160%                       
+Blissey 71.145%                       
+Buzzwole 70.719%                      
+Heatran 70.574%                       
+Sigilyph 70.430%                      
+Urshifu-Rapid-Strike 11.785%          
+Zapdos 11.416%                        
+Melmetal 11.410%                      
+Tapu Lele 11.410%                     
+Corviknight  5.979%                   
+Zapdos-Galar  5.357%                  
+ 
+Checks and Counters                   
+
+Pokemon
+Porygon-Z                             
+ 
+Raw count: 2764                       
+Avg. weight: 0.0312852860733          
+Viability Ceiling: 81                 
+ 
+Abilities                             
+Download 97.504%                      
+Adaptability  2.059%                  
+Analytic  0.437%                      
+ 
+Items                                 
+Choice Specs 88.133%                  
+Choice Scarf 11.534%                  
+Other  0.333%                         
+ 
+Spreads                               
+Modest:0/0/4/252/0/252 82.860%        
+Modest:0/0/0/252/4/252 14.839%        
+Other  2.301%                         
+ 
+Moves                                 
+Tri Attack 99.896%                    
+Psyshock 97.745%                      
+Thunderbolt 88.631%                   
+Shadow Ball 83.194%                   
+Ice Beam 16.583%                      
+Other 13.951%                         
+ 
+Teammates                             
+Ferrothorn 96.495%                    
+Barraskewda 96.489%                   
+Pelipper 96.489%                      
+Tapu Lele 96.472%                     
+Garchomp 86.257%                      
+Seismitoad 10.422%                    
+Seismitoad 10.422%                     
+ 
+Checks and Counters
+

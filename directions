@@ -1,0 +1,16 @@
+# populations depending on usage rate
+# normalize usage rates (softmax on usage rate)
+
+# sample from population, create n teams
+
+# eval fitness
+
+# select parents, where more fit parents are more likely to be chosen
+
+# reproduce, crossing over random genes => create new generation
+
+# top p% of generation goes directly over to new generation
+
+# random mutation
+
+# evaluate fitness of new population
