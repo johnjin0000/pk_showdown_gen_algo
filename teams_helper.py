@@ -170,7 +170,7 @@ def mutate(teams, mutation_rate, poke_dict):
     for team in teams:
         next_gen_teams.append(team)
         if random.random() < mutation_rate:
-            mut_stat = random.randint(0, 4)
+            mut_stat = random.randint(0, 3)
             mut_pokemon_idx = random.randint(0, 5)
             mut_pokemon = next_gen_teams[-1][mut_pokemon_idx]
             pokemon_info = poke_dict[team[mut_pokemon_idx][0]]
@@ -183,13 +183,11 @@ def mutate(teams, mutation_rate, poke_dict):
             elif mut_stat == 2:
                 item = sample_pokemon_info(pokemon_info, "Items", 1)
                 mut_pokemon[1] = item
-            elif mut_stat in [3, 4]:
+            else:
                 nature_spread = sample_pokemon_info(pokemon_info, "Spreads", 1)
                 nature, spread = nature_spread.split(":")
-                if mut_stat == 3:
-                    mut_pokemon[4] = nature
-                else:
-                    mut_pokemon[5] = spread
+                mut_pokemon[4] = nature
+                mut_pokemon[5] = spread
 
     return next_gen_teams, create_packed_teams(next_gen_teams)
 
