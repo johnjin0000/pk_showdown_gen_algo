@@ -8,7 +8,7 @@ from typing import Dict, List, Optional
 sys.path.append(".")  # will make "utils" callable from root
 sys.path.append("..")  # will make "utils" callable from simulators
 
-from poke_env.player.env_player import EnvPlayer
+from poke_env.player.env_player import EnvPlayer, Gen8EnvSinglePlayer
 from poke_env.player.player import Player
 
 from poke_env.environment.field import Field
@@ -128,7 +128,7 @@ class DQNPlayer(EnvPlayer):
 
         DQNPlayer.dqn.compile(Adam(lr=0.01), metrics=["mae"])
 
-    def _action_to_move(self, action: int, index: int, battle):
+    def action_to_move(self, action: int, index: int, battle):
 
         if action == -1:
             return ForfeitBattleOrder()
@@ -515,6 +515,21 @@ class DQNPlayer(EnvPlayer):
 
         return order.message
 
+    def compute_type_advantage(self, mon1, mon2):
+
+        a_on_b = b_on_a = -np.inf
+
+        # Store the max damage multiplier that the mon can do
+        for type_ in mon1.types:
+            if type_: a_on_b = max(a_on_b, type_.damage_multiplier(*mon2.types))
+
+        # Do the other way around
+        for type_ in mon2.types:
+            if type_: b_on_a = max(b_on_a, type_.damage_multiplier(*mon1.types))
+
+        # Our performance metric is the difference between the two
+        return a_on_b - b_on_a
+
     # Same as max damage for now - we return the mons who have the best average type advantages against the other team
     # TODO: implement using Q-values and minimax to send out position that maximizes our worst position
     def teampreview(self, battle):
@@ -525,7 +540,7 @@ class DQNPlayer(EnvPlayer):
         # For each of our pokemons
         for i, mon in enumerate(battle.team.values()):
             # We store their average performance against the opponent team
-            mon_performance[i] = np.mean([compute_type_advantage(mon, opp) for opp in battle.opponent_team.values()])
+            mon_performance[i] = np.mean([self.compute_type_advantage(mon, opp) for opp in battle.opponent_team.values()])
 
         # We sort our mons by performance
         ordered_mons = sorted(mon_performance, key=lambda k: -mon_performance[k])
