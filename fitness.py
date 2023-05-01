@@ -9,7 +9,7 @@ from poke_env import LocalhostServerConfiguration, PlayerConfiguration
 from poke_env.teambuilder import Teambuilder
 
 
-async def calc_fitness(teams, gen):
+async def calc_fitness(teams, gen, crossevals):
     players = [
         SimpleHeuristicsPlayer(
             battle_format="gen8ou",
@@ -20,7 +20,7 @@ async def calc_fitness(teams, gen):
         ) for i in range(len(teams))
     ]
 
-    cross_evaluation = await cross_evaluate(players, n_challenges=1)
+    cross_evaluation = await cross_evaluate(players, n_challenges=crossevals)
     fitness_dict = dict()
 
     for user in cross_evaluation:

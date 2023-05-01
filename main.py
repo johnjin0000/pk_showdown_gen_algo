@@ -13,6 +13,7 @@ async def main():
     n_gens = 10
     mutation_rate = .01
     crossover_rate = .8
+    
     teams, packed_teams = create_teams(pokemon, usage_dist, poke_dict, n_teams)
     fitness_scores = None
     for i in range(n_gens):
