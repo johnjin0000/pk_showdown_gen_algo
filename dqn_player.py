@@ -20,11 +20,8 @@ from poke_env.environment.move_category import MoveCategory
 from poke_env.environment.target_type import TargetType
 from poke_env.environment.volatile_status import VolatileStatus
 from poke_env.environment.battle import Battle
-from bots.random_doubles_player import RandomDoublesPlayer
 
-from poke_env.player.battle_order import DoubleBattleOrder, DefaultBattleOrder, BattleOrder
-
-from helpers.doubles_utils import *
+from poke_env.player.battle_order import ForfeitBattleOrder
 
 from rl.agents.dqn import DQNAgent
 from rl.policy import LinearAnnealedPolicy, MaxBoltzmannQPolicy
@@ -133,69 +130,20 @@ class DQNPlayer(EnvPlayer):
 
         DQNPlayer.dqn.compile(Adam(lr=0.01), metrics=["mae"])
 
-    def _action_to_single_move(self, action: int, index: int, battle):
+    def _action_to_move(self, action: int, index: int, battle):
 
-        if action < 24:
-            # If either there is no mon or we're forced to switch, there's nothing to do
-            if not battle.active_pokemon[index] or battle.force_switch[index]: return None
-            dynamax, remaining = action % 2 == 1, int(action / 2)
-            if battle.active_pokemon[index] and int(remaining / 3) < len(battle.active_pokemon[index].moves):
-                move, initial_target = list(battle.active_pokemon[index].moves.values())[
-                    int(remaining / 3)], remaining % 3
-
-                # If there's no target needed, we create the action as we normally would. It doesn't matter what our AI returned as target since there's only one possible target
-                if move.deduced_target not in ['adjacentAlly', 'adjacentAllyOrSelf', 'any', 'normal']:
-                    return BattleOrder(order=move, actor=battle.active_pokemon[index], dynamax=dynamax)
-
-                # If we are targeting a single mon, there are three cases: your other mon, the opponents mon or their other mon.
-                # 2 corresponds to your mon and 0/1 correspond to the opponents mons (index in opponent_active_mon)
-                # For the self-taret case, we ensure there's another mon on our side to hit (otherwise we leave action1 as None)
-                elif initial_target == 2:
-                    if battle.active_pokemon[1] is not None:
-                        return BattleOrder(order=move,
-                                           move_target=battle.active_pokemon_to_showdown_target(1 - index, opp=False),
-                                           actor=battle.active_pokemon[index], dynamax=dynamax)
-
-                # In the last case (if initial_target is 0 or 1), we target the opponent, and we do it regardless of what slot was
-                # chosen if there's only 1 mon left. In the following cases, we handle whether there are two mons left or one mon left
-                elif len(battle.opponent_active_pokemon) == 2 and all(battle.opponent_active_pokemon):
-                    return BattleOrder(order=move,
-                                       move_target=battle.active_pokemon_to_showdown_target(initial_target, opp=True),
-                                       actor=battle.active_pokemon[index], dynamax=dynamax)
-                elif len(battle.opponent_active_pokemon) < 2 and any(battle.opponent_active_pokemon):
-                    initial_target = 1 if battle.opponent_active_pokemon[0] is not None else 0
-                    return BattleOrder(order=move,
-                                       move_target=battle.active_pokemon_to_showdown_target(initial_target, opp=True),
-                                       actor=battle.active_pokemon[index], dynamax=dynamax)
-
-        elif 25 - action < len(battle.available_switches[index]):
-            return BattleOrder(order=battle.available_switches[index][25 - action], actor=battle.active_pokemon[index])
-
-        return None
-
-    # Takes the output of our policy (which chooses from a 676-dimensional array), and converts it into a battle order
-    def _action_to_move(self, action: int, battle: Battle) -> str:  # pyre-ignore
-        """Converts actions to move orders. There are 676 actions - and they can be thought of as a 26 x 26 matrix (first mon's possibilities
-        and second mon's possibilities). This is not quite true because you cant choose the same mon twice to switch to, but we handle that when
-        determining the legality of the move choices later; If the proposed action is illegal, a random legal move is performed.
-        The conversion is done as follows:
-
-        :param action: The action to convert.
-        :type action: int
-        :param battle: The battle in which to act.
-        :type battle: Battle
-        :return: the order to send to the server.
-        :rtype: str
-        """
-        row, col = action % 26, int(action / 26)
-        first_order = self._action_to_single_move(row, 0, battle) if battle.active_pokemon[0] else None
-        second_order = self._action_to_single_move(col, 1, battle) if battle.active_pokemon[1] else None
-
-        double_order = DoubleBattleOrder(first_order=first_order, second_order=second_order)
-        if DoubleBattleOrder.is_valid(battle, double_order):
-            return double_order
+        if action == -1:
+            return ForfeitBattleOrder()
+        elif (
+                action < 4
+                and action < len(battle.available_moves)
+                and not battle.force_switch
+        ):
+            return self.agent.create_order(battle.available_moves[action])
+        elif 0 <= action - 4 < len(battle.available_switches):
+            return self.agent.create_order(battle.available_switches[action - 4])
         else:
-            return DefaultBattleOrder()
+            return self.agent.choose_random_move(battle)
 
     @property
     def action_space(self) -> List:
@@ -585,10 +533,9 @@ class DQNPlayer(EnvPlayer):
             # We store their average performance against the opponent team
             mon_performance[i] = np.mean([compute_type_advantage(mon, opp) for opp in battle.opponent_team.values()])
 
-        # We sort our mons by performance, and choose the top 4
-        ordered_mons = sorted(mon_performance, key=lambda k: -mon_performance[k])[:4]
+        # We sort our mons by performance
+        ordered_mons = sorted(mon_performance, key=lambda k: -mon_performance[k])
 
         # We start with the one we consider best overall
         # We use i + 1 as python indexes start from 0 but showdown's indexes start from 1, and return the first 4 mons, in term of importance
-        # return "/team " + "".join([str(i + 1) for i in ordered_mons])
-        return "/team " + "".join(random.sample(list(map(lambda x: str(x + 1), range(0, len(battle.team)))), k=4))
+        return "/team " + "".join([str(i + 1) for i in ordered_mons])
