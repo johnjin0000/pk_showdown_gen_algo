@@ -11,7 +11,7 @@ from poke_env.teambuilder import Teambuilder
 
 async def calc_fitness(teams, gen, crossevals):
     players = [
-        SimpleHeuristicsPlayer(
+        SimpleDQNPlayer(
             battle_format="gen8ou",
             player_configuration=PlayerConfiguration("gen" + str(gen) + "user" + str(i), None),
             server_configuration=LocalhostServerConfiguration,
