@@ -30,9 +30,11 @@ from tensorflow.keras.layers import Dense, Flatten, Activation, BatchNormalizati
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.optimizers import Adam
 
+from gym.spaces import Space, Box
+
 
 # We define our RL player
-class DQNPlayer(EnvPlayer):
+class DQNPlayer(Gen8EnvSinglePlayer):
     dqn, model, memory, policy = None, None, None, None
 
     def __init__(self, num_battles=10000, **kwargs):
@@ -50,6 +52,7 @@ class DQNPlayer(EnvPlayer):
         # (4 moves * dynamax + 5 switches) = 13
         action_space = list(range((4 * 2 + 5)))
         self._ACTION_SPACE = action_space
+        self.action_space_len = len(self._ACTION_SPACE)
 
         # Preprocess all the sets that we'll use to embed battle states.
         # The tuples are key where we retrieve the classes, the class, and whether poke_env supports returning the class (as opposed to string)
@@ -89,11 +92,12 @@ class DQNPlayer(EnvPlayer):
         DQNPlayer.model.add(Dense(256, activation="relu", use_bias=False, kernel_initializer=init, name='second_hidden'))
 
         # Output Layer
-        DQNPlayer.model.add(Dense(len(self._ACTION_SPACE), use_bias=False, kernel_initializer=init, name='final'))
+        DQNPlayer.model.add(Dense(self.action_space_len, use_bias=False, kernel_initializer=init, name='final'))
         DQNPlayer.model.add(
             BatchNormalization())  # Increases speed: https://www.dlology.com/blog/one-simple-trick-to-train-keras-model-faster-with-batch-normalization/
         DQNPlayer.model.add(Activation(
             "linear"))  # Same as passing activation in Dense Layer, but allows us to access last layer: https://stackoverflow.com/questions/40866124/difference-between-dense-and-activation-layer-in-keras
+        DQNPlayer.model.add(Flatten(name='flatten_final'))
 
         # This is how many battles we'll remember before we start forgetting old ones
         DQNPlayer.memory = SequentialMemory(limit=max(self.num_battles, 10000), window_length=1)
@@ -113,7 +117,7 @@ class DQNPlayer(EnvPlayer):
         # Defining our DQN
         DQNPlayer.dqn = DQNAgent(
             model=DQNPlayer.model,
-            nb_actions=len(self._ACTION_SPACE),
+            nb_actions=self.action_space_len,
             policy=DQNPlayer.policy,
             memory=DQNPlayer.memory,
             nb_steps_warmup=1000,
@@ -408,10 +412,6 @@ class DQNPlayer(EnvPlayer):
             embeddings.append(self._embed_opp_mon(battle, battle.teampreview_opponent_team[mon]))
             embedded_opp_mons.add(mon)
 
-        # Add Dynamax stuff
-        embeddings.append(battle.can_dynamax + battle.opponent_can_dynamax + [battle.dynamax_turns_left,
-                                                                              battle.opponent_dynamax_turns_left])
-
         # Add Fields;
         embeddings.append([1 if field in battle.fields else 0 for field in self._knowledge['Field']])
 
@@ -479,6 +479,18 @@ class DQNPlayer(EnvPlayer):
         self._reward_buffer[battle] = current_value
 
         return to_return
+
+    def calc_reward(self, last_battle, current_battle) -> float:
+        return self.compute_reward(current_battle)
+
+    def describe_embedding(self) -> Space:
+        low = [-1, -1, -1, -1, 0, 0, 0, 0, 0, 0]
+        high = [3, 3, 3, 3, 4, 4, 4, 4, 1, 1]
+        return Box(
+            np.array(low, dtype=np.float32),
+            np.array(high, dtype=np.float32),
+            dtype=np.float32,
+        )
 
     # Because of env_player implementation, it requires an initial parameter passed, in this case, it's the object itself (player == self)
     def _training_helper(self, player, num_steps=10000):

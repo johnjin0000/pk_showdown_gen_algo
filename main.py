@@ -6,6 +6,7 @@ from teams_helper import create_teams
 from genalgo import gen_algo
 from dqn_player import *
 from poke_env import LocalhostServerConfiguration, PlayerConfiguration
+from gym.utils.env_checker import check_env
 
 
 async def main():
@@ -27,29 +28,34 @@ async def main():
     agent = None
     for i in range(n_gens):
         # Train agent
-        agent = DQNPlayer(battle_format="gen8ou", 
-                                player_configuration=PlayerConfiguration("gen" + str(i) + "user" + str(i), None), 
-                                server_configuration=LocalhostServerConfiguration,
-                                max_concurrent_battles=n_teams,
-                                team = agentteam
-                        )
+        agent = DQNPlayer(
+            battle_format="gen8ou",
+            player_configuration=PlayerConfiguration("gen" + str(i) + "user" + str(i), None),
+            server_configuration=LocalhostServerConfiguration,
+            max_concurrent_battles=n_teams,
+            team=agentteam
+        )
+        if i == 0:
+            agent.create_model()
+            check_env(agent)
+
         # We want some variety in the teams the opponent uses
         for j in range(num_different_teams):
-            opponent = DQNPlayer(battle_format="gen8ou", 
-                                    player_configuration=PlayerConfiguration("gen" + str(i) + "opponent" + str(j), None), 
-                                    server_configuration=LocalhostServerConfiguration,
-                                    max_concurrent_battles=n_teams,
-                                    team = teams[np.random.choice(teams, size = 1)] # Pick a random team
-                                )
+            opponent = DQNPlayer(battle_format="gen8ou",
+                                 player_configuration=PlayerConfiguration("gen" + str(i) + "opponent" + str(j), None),
+                                 server_configuration=LocalhostServerConfiguration,
+                                 max_concurrent_battles=n_teams,
+                                 team=random.choice(teams)  # Pick a random team
+                                 )
             agent.train(opponent, train_steps)
         # Search for team via GA
-        teams, packed_teams, bestteam = gen_algo(teams, packed_teams, poke_dict, mutation_rate, crossover_rate, i, crossevals)
+        teams, packed_teams, bestteam = gen_algo(teams, packed_teams, poke_dict, mutation_rate, crossover_rate, i,
+                                                 crossevals)
         agentteam = bestteam
         teams.append(agentteam)
     # Give results to user
     agent.save_model()
     print(agentteam)
-
 
 
 if __name__ == "__main__":
