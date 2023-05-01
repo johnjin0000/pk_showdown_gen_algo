@@ -17,8 +17,7 @@ from poke_env.environment.status import Status
 from poke_env.environment.weather import Weather
 from poke_env.environment.pokemon_type import PokemonType
 from poke_env.environment.move_category import MoveCategory
-from poke_env.environment.target_type import TargetType
-from poke_env.environment.volatile_status import VolatileStatus
+from poke_env.environment.effect import Effect
 from poke_env.environment.battle import Battle
 
 from poke_env.player.battle_order import ForfeitBattleOrder
@@ -62,8 +61,7 @@ class DQNPlayer(EnvPlayer):
             ('Weather', Weather, True),
             ('PokemonType', PokemonType, True),
             ('MoveCategory', MoveCategory, True),
-            ('TargetType', TargetType, False),
-            ('VolatileStatus', VolatileStatus, False),
+            ('Effect', Effect, False),
         ]
 
         for key, klass, supported in sets:
@@ -240,13 +238,9 @@ class DQNPlayer(EnvPlayer):
         # Add Weathers (bad coding -- assumes field name will be move name, and uses string manipulation)
         embeddings.append([1 if move.weather == weather else 0 for weather in self._knowledge['Weather']])
 
-        # Add Targeting Types; cardinality is 14
-        embeddings.append([1 if move.deduced_target and move.deduced_target.lower() == tt else 0 for tt in
-                           self._knowledge['TargetType']])
-
         # Add Volatility Statuses; cardinality is 57
         volatility_status_embeddings = []
-        for vs in self._knowledge['VolatileStatus']:
+        for vs in self._knowledge['Effect']:
             if vs == move.volatile_status:
                 volatility_status_embeddings.append(1)
             elif move.secondary and vs in list(map(lambda x: x.get('volatilityStatus', '').lower(), move.secondary)):
