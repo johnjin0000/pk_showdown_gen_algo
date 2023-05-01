@@ -1,4 +1,5 @@
 import asyncio
+import pickle
 
 from parse import usage_data, pokemon_data
 from fitness import calc_fitness
@@ -22,18 +23,12 @@ async def main():
     for i in range(n_gens):
         # Initialize DQN model using agentteam
         # Train DQN
-        teams, packed_teams = gen_algo(teams, packed_teams, poke_dict, mutation_rate, crossover_rate, i, crossevals)
-        
+        teams, packed_teams, bestteam = gen_algo(teams, packed_teams, poke_dict, mutation_rate, crossover_rate, i, crossevals)
+        agentteam = bestteam
+    # Give results to user
+    pickle.dump(model, open("dqnmodel.pkl", "wb"))
+    print(agentteam)
 
-
-    
-def best_teams(fitness_scores, teams):
-    combined = [(fitness_scores[i], teams[i]) for i in range(len(teams))]
-    combined.sort(reverse=True)
-    print([x[0] for x in combined])
-    print(combined[0])
-    print(combined[1])
-    print(combined[2])
 
 
 if __name__ == "__main__":
