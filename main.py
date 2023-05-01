@@ -22,7 +22,6 @@ async def main():
     train_steps = 1000
 
     teams, packed_teams = create_teams(pokemon, usage_dist, poke_dict, n_teams)
-    fitness_scores = None
     agentteam = teams[0]
     teams.append(agentteam)
     agent = None
