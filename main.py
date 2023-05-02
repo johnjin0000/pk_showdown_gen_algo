@@ -27,6 +27,7 @@ async def main():
 
     combined = [(fitness_scores[i], teams[i]) for i in range(len(teams))]
     combined.sort(reverse=True)
+    print(f"Algorithm complete, total runtime {round((time.time() - starttime) / 60, 2)} minutes")
     print(combined[0])
     print(combined[1])
     print(combined[2])
