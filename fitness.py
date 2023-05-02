@@ -4,15 +4,14 @@ import re
 import math
 import numpy as np
 import poke_env
-from poke_env.player import cross_evaluate
+from poke_env.player import SimpleHeuristicsPlayer, cross_evaluate
 from poke_env import LocalhostServerConfiguration, PlayerConfiguration
 from poke_env.teambuilder import Teambuilder
-from dqn_player import *
 
 
-async def calc_fitness(teams, gen, crossevals):
+async def calc_fitness(teams, gen):
     players = [
-        DQNPlayer(
+        SimpleHeuristicsPlayer(
             battle_format="gen8ou",
             player_configuration=PlayerConfiguration("gen" + str(gen) + "user" + str(i), None),
             server_configuration=LocalhostServerConfiguration,
@@ -21,7 +20,7 @@ async def calc_fitness(teams, gen, crossevals):
         ) for i in range(len(teams))
     ]
 
-    cross_evaluation = await cross_evaluate(players, n_challenges=crossevals)
+    cross_evaluation = await cross_evaluate(players, n_challenges=1)
     fitness_dict = dict()
 
     for user in cross_evaluation:

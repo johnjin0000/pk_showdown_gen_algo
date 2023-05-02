@@ -74,10 +74,10 @@ def sample_pokemon_details(selected_teams, poke_dict):
 
 
 def create_teams(pokemon, usage_dist, poke_dict, n_teams):
-    selected_teams = select_pokemon(pokemon, usage_dist, n_teams)   # Samples 6 pokemon
-    teams = sample_pokemon_details(selected_teams, poke_dict)       # Fills in info about their moves, abilities, etc.
+    selected_teams = select_pokemon(pokemon, usage_dist, n_teams)
+    teams = sample_pokemon_details(selected_teams, poke_dict)
     # use pokemon showdown packed team format
-    packed_teams = create_packed_teams(teams)                       # Reformats to packed format
+    packed_teams = create_packed_teams(teams)
     return teams, packed_teams
 
 
