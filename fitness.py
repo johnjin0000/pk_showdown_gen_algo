@@ -5,7 +5,7 @@ import math
 import numpy as np
 import poke_env
 from poke_env.player import cross_evaluate
-from poke_env import LocalhostServerConfiguration, PlayerConfiguration
+from poke_env import LocalhostServerConfiguration, PlayerConfiguration, ServerConfiguration
 
 from improved_heuristics_player import ImprovedHeuristicsPlayer
 
@@ -15,7 +15,7 @@ async def calc_fitness(teams, gen):
         ImprovedHeuristicsPlayer(
             battle_format="gen8ou",
             player_configuration=PlayerConfiguration("gen" + str(gen) + "user" + str(i), None),
-            server_configuration=LocalhostServerConfiguration,
+            server_configuration=ServerConfiguration(server_url='localhost:4000', authentication_url='https://play.pokemonshowdown.com/action.php?'),
             max_concurrent_battles=50,
             team=teams[i],
         ) for i in range(len(teams))

@@ -9,8 +9,8 @@ async def main():
     pokemon, usage_dist = usage_data()
     poke_dict = pokemon_data()
 
-    n_teams = 50
-    n_gens = 10
+    n_teams = 20
+    n_gens = 5
     mutation_rate = .01
     crossover_rate = .8
     teams, packed_teams = create_teams(pokemon, usage_dist, poke_dict, n_teams)
@@ -23,7 +23,6 @@ async def main():
 
     combined = [(fitness_scores[i], teams[i]) for i in range(len(teams))]
     combined.sort(reverse=True)
-    print([x[0] for x in combined])
     print(combined[0])
     print(combined[1])
     print(combined[2])
