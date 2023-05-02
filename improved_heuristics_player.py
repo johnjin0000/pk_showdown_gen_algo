@@ -1,6 +1,7 @@
 from poke_env.environment.move_category import MoveCategory
 from poke_env.environment.side_condition import SideCondition
 from poke_env.player.player import Player
+from poke_env.environment.pokemon_type import *
 
 class ImprovedHeuristicsPlayer(Player):
     ENTRY_HAZARDS = {
@@ -31,6 +32,29 @@ class ImprovedHeuristicsPlayer(Player):
 
         return score
 
+    def _should_dynamax(self, battle, n_remaining_mons):
+        if battle.can_dynamax:
+            # Last full HP mon
+            if (
+                len([m for m in battle.team.values() if m.current_hp_fraction == 1])
+                == 1
+                and battle.active_pokemon.current_hp_fraction == 1
+            ):
+                return True
+            # Matchup advantage and full hp on full hp
+            if (
+                self._estimate_matchup(
+                    battle.active_pokemon, battle.opponent_active_pokemon
+                )
+                > 0
+                and battle.active_pokemon.current_hp_fraction == 1
+                and battle.opponent_active_pokemon.current_hp_fraction == 1
+            ):
+                return True
+            if n_remaining_mons == 1:
+                return True
+        return False
+
     def _should_switch_out(self, battle):
         active = battle.active_pokemon
         opponent = battle.opponent_active_pokemon
@@ -44,18 +68,18 @@ class ImprovedHeuristicsPlayer(Player):
             if active.boosts["def"] <= -3 or active.boosts["spd"] <= -3:
                 return True
             if (
-                    active.boosts["atk"] <= -3
-                    and active.stats["atk"] >= active.stats["spa"]
+                active.boosts["atk"] <= -3
+                and active.stats["atk"] >= active.stats["spa"]
             ):
                 return True
             if (
-                    active.boosts["spa"] <= -3
-                    and active.stats["atk"] <= active.stats["spa"]
+                active.boosts["spa"] <= -3
+                and active.stats["atk"] <= active.stats["spa"]
             ):
                 return True
             if (
-                    self._estimate_matchup(active, opponent)
-                    < self.SWITCH_OUT_MATCHUP_THRESHOLD
+                self._estimate_matchup(active, opponent)
+                < self.SWITCH_OUT_MATCHUP_THRESHOLD
             ):
                 return True
         return False
@@ -82,7 +106,7 @@ class ImprovedHeuristicsPlayer(Player):
         )
 
         if battle.available_moves and (
-                not self._should_switch_out(battle) or not battle.available_switches
+            not self._should_switch_out(battle) or not battle.available_switches
         ):
             n_remaining_mons = len(
                 [m for m in battle.team.values() if m.fainted is False]
@@ -95,50 +119,52 @@ class ImprovedHeuristicsPlayer(Player):
             for move in battle.available_moves:
                 # ...setup
                 if (
-                        n_opp_remaining_mons >= 3
-                        and move.id in self.ENTRY_HAZARDS
-                        and self.ENTRY_HAZARDS[move.id]
-                        not in battle.opponent_side_conditions
+                    n_opp_remaining_mons >= 3
+                    and move.id in self.ENTRY_HAZARDS
+                    and self.ENTRY_HAZARDS[move.id]
+                    not in battle.opponent_side_conditions
                 ):
                     return self.create_order(move)
 
                 # ...removal
                 elif (
-                        battle.side_conditions
-                        and move.id in self.ANTI_HAZARDS_MOVES
-                        and n_remaining_mons >= 2
+                    battle.side_conditions
+                    and move.id in self.ANTI_HAZARDS_MOVES
+                    and n_remaining_mons >= 2
                 ):
                     return self.create_order(move)
 
             # Setup moves
             if (
-                    active.current_hp_fraction == 1
-                    and self._estimate_matchup(active, opponent) > 0
+                active.current_hp_fraction == 1
+                and self._estimate_matchup(active, opponent) > 0
             ):
                 for move in battle.available_moves:
                     if (
-                            move.boosts
-                            and sum(move.boosts.values()) >= 2
-                            and move.target == "self"
-                            and min(
-                        [active.boosts[s] for s, v in move.boosts.items() if v > 0]
-                    )
-                            < 6
+                        move.boosts
+                        and sum(move.boosts.values()) >= 2
+                        and move.target == "self"
+                        and min(
+                            [active.boosts[s] for s, v in move.boosts.items() if v > 0]
+                        )
+                        < 6
                     ):
                         return self.create_order(move)
 
             move = max(
                 battle.available_moves,
                 key=lambda m: m.base_power
-                              * (1.5 if m.type in active.types else 1)
-                              * (
-                                  physical_ratio
-                                  if m.category == MoveCategory.PHYSICAL
-                                  else special_ratio
-                              )
-                              * m.accuracy
-                              * m.expected_hits
-                              * opponent.damage_multiplier(m),
+                * (1.5 if m.type in active.types else 1)
+                * (
+                    physical_ratio
+                    if m.category == MoveCategory.PHYSICAL
+                    else special_ratio
+                )
+                * m.accuracy
+                * m.expected_hits
+                * opponent.damage_multiplier(m)
+                * (0 if ((m.type == PokemonType.GROUND and (battle.opponent_active_pokemon.ability == "levitate" or battle.oponent_active_pokemon.item == "airballoon"))
+                          or m.type == PokemonType.FIRE and battle.opponent_active_pokemon.ability == "flashfire") else 1),
             )
             return self.create_order(move)
 
