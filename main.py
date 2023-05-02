@@ -21,7 +21,7 @@ async def main():
         elapsed = round((time.time() - starttime) / 60, 2)
 
         print(f"Generation {i}, has been {elapsed}m since starting")
-        fitness_scores = await calc_fitness(packed_teams, i)
+        fitness_scores = await calc_fitness(packed_teams, i, 3)
         teams = get_new_generation(teams, fitness_scores, crossover_rate)
         teams, packed_teams = mutate(teams, mutation_rate, poke_dict)
 
