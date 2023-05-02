@@ -3,6 +3,8 @@ from poke_env.environment.side_condition import SideCondition
 from poke_env.player.player import Player
 from poke_env.environment.pokemon_type import *
 
+import random
+
 class ImprovedHeuristicsPlayer(Player):
     ENTRY_HAZARDS = {
         "spikes": SideCondition.SPIKES,
@@ -151,21 +153,25 @@ class ImprovedHeuristicsPlayer(Player):
                     ):
                         return self.create_order(move)
 
-            move = max(
-                battle.available_moves,
-                key=lambda m: m.base_power
-                * (1.5 if m.type in active.types else 1)
-                * (
-                    physical_ratio
-                    if m.category == MoveCategory.PHYSICAL
-                    else special_ratio
+            rand_num = random.random()
+            if rand_num > .1:
+                move = max(
+                    battle.available_moves,
+                    key=lambda m: m.base_power
+                    * (1.5 if m.type in active.types else 1)
+                    * (
+                        physical_ratio
+                        if m.category == MoveCategory.PHYSICAL
+                        else special_ratio
+                    )
+                    * m.accuracy
+                    * m.expected_hits
+                    * opponent.damage_multiplier(m)
+                    * (0 if ((m.type == PokemonType.GROUND and (battle.opponent_active_pokemon.ability == "levitate" or battle.opponent_active_pokemon.item == "airballoon"))
+                              or m.type == PokemonType.FIRE and battle.opponent_active_pokemon.ability == "flashfire") else 1),
                 )
-                * m.accuracy
-                * m.expected_hits
-                * opponent.damage_multiplier(m)
-                * (0 if ((m.type == PokemonType.GROUND and (battle.opponent_active_pokemon.ability == "levitate" or battle.opponent_active_pokemon.item == "airballoon"))
-                          or m.type == PokemonType.FIRE and battle.opponent_active_pokemon.ability == "flashfire") else 1),
-            )
+            else:
+                move = random.choice(battle.available_moves)
             return self.create_order(move)
 
         if battle.available_switches:
