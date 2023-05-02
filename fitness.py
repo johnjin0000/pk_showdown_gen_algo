@@ -24,7 +24,6 @@ async def calc_fitness(teams, gen):
 
     cross_evaluation = await cross_evaluate(players, n_challenges=3)
     fitness_dict = dict()
-
     for user in cross_evaluation:
         score = 0
         for matchup in cross_evaluation[user]:
@@ -33,7 +32,7 @@ async def calc_fitness(teams, gen):
         fitness_dict[int(re.search(r'(\d+)\D*$', user).group())] = score
 
     fitness_scores = [0 for i in range(len(teams))]
-    total_matches = math.comb(len(teams), 2) * 3  # multiplied by n_challenges in cross_evaluate
+    total_matches = math.comb(len(teams), 2)  # multiplied by n_challenges in cross_evaluate
     for user in fitness_dict:
         fitness_scores[user] = fitness_dict[user] / total_matches
 
