@@ -171,7 +171,7 @@ class ImprovedHeuristicsPlayer(Player):
                               or m.type == PokemonType.FIRE and battle.opponent_active_pokemon.ability == "flashfire") else 1),
                 )
             else:
-                move = random.choice(battle.available_moves)
+                move = self.choose_random_move()
             return self.create_order(move)
 
         if battle.available_switches:
