@@ -6,7 +6,7 @@ from poke_env.environment.pokemon_type import *
 class ImprovedHeuristicsPlayer(Player):
     ENTRY_HAZARDS = {
         "spikes": SideCondition.SPIKES,
-        "stealhrock": SideCondition.STEALTH_ROCK,
+        "stealthrock": SideCondition.STEALTH_ROCK,
         "stickyweb": SideCondition.STICKY_WEB,
         "toxicspikes": SideCondition.TOXIC_SPIKES,
     }
@@ -163,7 +163,7 @@ class ImprovedHeuristicsPlayer(Player):
                 * m.accuracy
                 * m.expected_hits
                 * opponent.damage_multiplier(m)
-                * (0 if ((m.type == PokemonType.GROUND and (battle.opponent_active_pokemon.ability == "levitate" or battle.oponent_active_pokemon.item == "airballoon"))
+                * (0 if ((m.type == PokemonType.GROUND and (battle.opponent_active_pokemon.ability == "levitate" or battle.opponent_active_pokemon.item == "airballoon"))
                           or m.type == PokemonType.FIRE and battle.opponent_active_pokemon.ability == "flashfire") else 1),
             )
             return self.create_order(move)
