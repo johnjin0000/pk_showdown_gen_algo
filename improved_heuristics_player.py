@@ -175,7 +175,7 @@ class ImprovedHeuristicsPlayer(Player):
                     * opponent.damage_multiplier(m)
                     * (0 if ((m.type == PokemonType.GROUND and (battle.opponent_active_pokemon.ability == "levitate" or battle.opponent_active_pokemon.item == "airballoon"))
                               or m.type == PokemonType.FIRE and battle.opponent_active_pokemon.ability == "flashfire") else 1)
-                    * (0 if (m.status and battle.opponent_active_pokemon.status and m.MoveCategory == MoveCategory.STATUS) else 1),
+                    * (0 if (m.status and battle.opponent_active_pokemon.status and m.defensive_category == MoveCategory.STATUS) else 1),
                 )
             else:
                 move = random.choice(battle.available_moves)
