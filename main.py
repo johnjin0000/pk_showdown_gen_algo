@@ -1,4 +1,5 @@
 import asyncio
+import time
 
 from parse import usage_data, pokemon_data
 from fitness import calc_fitness
@@ -9,14 +10,17 @@ async def main():
     pokemon, usage_dist = usage_data()
     poke_dict = pokemon_data()
 
-    n_teams = 30
-    n_gens = 5
+    starttime = time.time()
+    n_teams = 50
+    n_gens = 15
     mutation_rate = .01
     crossover_rate = .8
     teams, packed_teams = create_teams(pokemon, usage_dist, poke_dict, n_teams)
     fitness_scores = None
     for i in range(n_gens):
-        print("gen", i)
+        elapsed = round((time.time() - starttime) / 60, 2)
+
+        print(f"Generation {i}, has been {elapsed}m since starting")
         fitness_scores = await calc_fitness(packed_teams, i)
         teams = get_new_generation(teams, fitness_scores, crossover_rate)
         teams, packed_teams = mutate(teams, mutation_rate, poke_dict)
