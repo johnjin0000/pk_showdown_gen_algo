@@ -15,13 +15,14 @@ async def calc_fitness(teams, gen):
         ImprovedHeuristicsPlayer(
             battle_format="gen8ou",
             player_configuration=PlayerConfiguration("gen" + str(gen) + "user" + str(i), None),
-            server_configuration=ServerConfiguration(server_url='localhost:4000', authentication_url='https://play.pokemonshowdown.com/action.php?'),
+            server_configuration=ServerConfiguration(server_url='localhost:4000',
+                                                     authentication_url='https://play.pokemonshowdown.com/action.php?'),
             max_concurrent_battles=50,
             team=teams[i],
         ) for i in range(len(teams))
     ]
 
-    cross_evaluation = await cross_evaluate(players, n_challenges=1)
+    cross_evaluation = await cross_evaluate(players, n_challenges=3)
     fitness_dict = dict()
 
     for user in cross_evaluation:
@@ -32,7 +33,7 @@ async def calc_fitness(teams, gen):
         fitness_dict[int(re.search(r'(\d+)\D*$', user).group())] = score
 
     fitness_scores = [0 for i in range(len(teams))]
-    total_matches = math.comb(len(teams), 2)
+    total_matches = math.comb(len(teams), 2) * 3  # multiplied by n_challenges in cross_evaluate
     for user in fitness_dict:
         fitness_scores[user] = fitness_dict[user] / total_matches
 

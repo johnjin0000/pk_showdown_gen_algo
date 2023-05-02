@@ -10,7 +10,7 @@ async def main():
     poke_dict = pokemon_data()
 
     n_teams = 30
-    n_gens = 10
+    n_gens = 5
     mutation_rate = .01
     crossover_rate = .8
     teams, packed_teams = create_teams(pokemon, usage_dist, poke_dict, n_teams)
