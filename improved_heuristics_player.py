@@ -117,6 +117,12 @@ class ImprovedHeuristicsPlayer(Player):
                 [m for m in battle.team.values() if m.fainted is True]
             )
 
+            # Heal if possible
+            if active.current_hp_fraction < 0.66 and random.random() < 0.66:
+                for move in battle.available_moves:
+                    if move.heal > 0.3:
+                        return self.create_order(move)
+                    
             # Entry hazard...
             for move in battle.available_moves:
                 # ...setup
@@ -168,7 +174,8 @@ class ImprovedHeuristicsPlayer(Player):
                     * m.expected_hits
                     * opponent.damage_multiplier(m)
                     * (0 if ((m.type == PokemonType.GROUND and (battle.opponent_active_pokemon.ability == "levitate" or battle.opponent_active_pokemon.item == "airballoon"))
-                              or m.type == PokemonType.FIRE and battle.opponent_active_pokemon.ability == "flashfire") else 1),
+                              or m.type == PokemonType.FIRE and battle.opponent_active_pokemon.ability == "flashfire") else 1)
+                    * (0 if (m.status and battle.opponent_active_pokemon.status and m.MoveCategory == MoveCategory.STATUS) else 1),
                 )
             else:
                 move = random.choice(battle.available_moves)
